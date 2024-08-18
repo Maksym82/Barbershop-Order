@@ -1,0 +1,35 @@
+.header {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: $sections;
+}
+
+.header__container {
+  padding: 14px 20px 0 9px;
+}
+
+.logo__box {
+  display: flex;
+  gap: 20px;
+}
+
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.logo__first {
+  font-weight: 400;
+  font-size: 20px;
+  color: $h2-section;
+  margin-bottom: 0;
+}
+
+.logo__second {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 200%;
+  color: $h2-section;
+  margin-bottom: 0;
+}
