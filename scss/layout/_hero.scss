@@ -136,6 +136,11 @@
     background-color: $bgContact;
     padding: 28px 34px 36px 44px;
   }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+    padding: 28px 85px 65px 154px;
+  }
 }
 
 .hero__contacts-list {
