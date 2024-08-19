@@ -97,3 +97,47 @@
     cursor: pointer;
   }
 }
+
+// Hero contacts
+.hero__contacts {
+  display: none;
+
+  @media screen and (min-width: 834px) {
+    display: block;
+    max-width: 834px;
+    background-color: $bgContact;
+    padding: 28px 34px 36px 44px;
+  }
+}
+
+.hero__contacts-item {
+  width: 161px;
+}
+
+.contacts__box {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 6px;
+}
+
+.contacts__icon-clock {
+  width: 35px;
+  height: 35px;
+  fill: $h2-section;
+}
+
+.work-time {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: $text-info;
+  margin-bottom: 0;
+}
+
+.work-hours {
+  font-weight: 500;
+  font-size: 24px;
+  color: $text-info;
+  margin-bottom: 0;
+}
