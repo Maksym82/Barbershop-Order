@@ -202,12 +202,12 @@ ul {
     max-width: 834px;
     min-height: 1121px;
     padding: 281px 0 340px 40px;
-    background-image: url("../../images/hero/hero-tablet@1x.jpg");
+    background-image: url("../images/hero/hero-tablet@1x.jpg");
   }
 }
 @media screen and (min-width: 834px) and (min-device-pixel-ratio: 2), screen and (min-width: 834px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 834px) and (min-resolution: 192dpi), screen and (min-width: 834px) and (min-resolution: 2dppx) {
   .hero__container {
-    background-image: url("../../images/hero/hero-tablet@2x.jpg");
+    background-image: url("../images/hero/hero-tablet@2x.jpg");
   }
 }
 @media screen and (min-width: 1440px) {

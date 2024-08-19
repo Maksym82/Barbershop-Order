@@ -20,12 +20,12 @@
     max-width: 834px;
     min-height: 1121px;
     padding: 281px 0 340px 40px;
-    background-image: url('../../images/hero/hero-tablet@1x.jpg');
+    background-image: url('../images/hero/hero-tablet@1x.jpg');
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url('../../images/hero/hero-tablet@2x.jpg');
+      background-image: url('../images/hero/hero-tablet@2x.jpg');
     }
   }
 
