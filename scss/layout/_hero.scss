@@ -105,13 +105,21 @@
   @media screen and (min-width: 834px) {
     display: block;
     max-width: 834px;
+    margin: 0 auto;
+    border: 1px solid $h2-section;
+    border-top: none;
     background-color: $bgContact;
     padding: 28px 34px 36px 44px;
   }
 }
 
+.hero__contacts-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .hero__contacts-item {
-  width: 161px;
+  width: 210px;
 }
 
 .contacts__box {
@@ -121,13 +129,13 @@
   margin-bottom: 6px;
 }
 
-.contacts__icon-clock {
+.contacts__icon {
   width: 35px;
   height: 35px;
   fill: $h2-section;
 }
 
-.work-time {
+.contacts-first {
   font-weight: 500;
   font-size: 16px;
   line-height: 175%;
@@ -135,9 +143,14 @@
   margin-bottom: 0;
 }
 
-.work-hours {
-  font-weight: 500;
+.contacts-second {
+  font-weight: 400;
   font-size: 24px;
   color: $text-info;
   margin-bottom: 0;
+}
+
+.second-item {
+  font-style: normal;
+  text-decoration: none;
 }

@@ -296,13 +296,25 @@ ul {
   .hero__contacts {
     display: block;
     max-width: 834px;
+    margin: 0 auto;
+    border: 1px solid #cdae5d;
+    border-top: none;
     background-color: #222830;
     padding: 28px 34px 36px 44px;
   }
 }
 
+.hero__contacts-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .hero__contacts-item {
-  width: 161px;
+  width: 210px;
 }
 
 .contacts__box {
@@ -316,13 +328,13 @@ ul {
   margin-bottom: 6px;
 }
 
-.contacts__icon-clock {
+.contacts__icon {
   width: 35px;
   height: 35px;
   fill: #cdae5d;
 }
 
-.work-time {
+.contacts-first {
   font-weight: 500;
   font-size: 16px;
   line-height: 175%;
@@ -330,9 +342,14 @@ ul {
   margin-bottom: 0;
 }
 
-.work-hours {
-  font-weight: 500;
+.contacts-second {
+  font-weight: 400;
   font-size: 24px;
   color: #d9d9d9;
   margin-bottom: 0;
+}
+
+.second-item {
+  font-style: normal;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
