@@ -36,7 +36,6 @@ ul {
   left: 0;
   max-width: 375px;
   margin: 0 auto;
-  background-color: #0d151d;
 }
 @media screen and (min-width: 834px) {
   .header {
@@ -184,4 +183,61 @@ ul {
   width: 28px;
   height: 28px;
   fill: #cdae5d;
+}
+
+.hero__container {
+  max-width: 375px;
+  min-height: 507px;
+  margin: 0 auto;
+  padding: 220px 0 43px 18px;
+  background-color: #585a59;
+  border: 1px solid #cdae5d;
+  background-image: url("../images/hero/hero-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero__container {
+    background-image: url("../../images/hero/hero-mobile@2x.jpg");
+  }
+}
+.hero__title {
+  font-weight: 300;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  color: #cdae5d;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.hero__subtitle {
+  font-weight: 500;
+  font-size: 22px;
+  width: 150px;
+  color: #cdae5d;
+  margin-bottom: 32px;
+}
+
+.hero__button-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 175px;
+  height: 51px;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #cdae5d;
+  color: #1e1e1e;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

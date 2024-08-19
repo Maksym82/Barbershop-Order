@@ -1,0 +1,53 @@
+.hero__container {
+  max-width: 375px;
+  min-height: 507px;
+  margin: 0 auto;
+  padding: 220px 0 43px 18px;
+  background-color: $block-2;
+  border: 1px solid $h2-section;
+  background-image: url('../images/hero/hero-mobile@1x.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero__container {
+    background-image: url('../../images/hero/hero-mobile@2x.jpg');
+  }
+}
+
+.hero__title {
+  font-weight: 300;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  color: $h2-section;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.hero__subtitle {
+  font-weight: 500;
+  font-size: 22px;
+  width: 150px;
+  color: $h2-section;
+  margin-bottom: 32px;
+}
+
+.hero__button-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  height: 51px;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: $h2-section;
+  color: $button;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
