@@ -84,11 +84,6 @@ ul {
   gap: 20px;
 }
 
-.logo__img:hover {
-  -webkit-box-shadow: 0 4px 4px 0 #cdae5d;
-          box-shadow: 0 4px 4px 0 #cdae5d;
-}
-
 .logo__text {
   display: -webkit-box;
   display: -ms-flexbox;
