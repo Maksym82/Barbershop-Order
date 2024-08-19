@@ -30,6 +30,10 @@ ul {
 }
 
 .header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
   max-width: 375px;
   margin: 0 auto;
   background-color: #0d151d;
