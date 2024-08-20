@@ -268,6 +268,15 @@ ul {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .hero__button-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 421px;
+    gap: 36px;
+  }
+}
 .hero__button-first {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -288,12 +297,24 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+  -webkit-transition: background-color 300ms linear, color 300ms linear;
+  transition: background-color 300ms linear, color 300ms linear;
 }
 @media screen and (min-width: 834px) {
   .hero__button-first {
     width: 210px;
     margin-bottom: 40px;
   }
+}
+@media screen and (min-width: 1440px) {
+  .hero__button-first {
+    width: 175px;
+    margin-bottom: 0;
+  }
+}
+.hero__button-first:hover {
+  background-color: rgba(210, 159, 27, 0.72);
+  color: #d9d9d9;
 }
 
 .hero__button-second {
@@ -313,6 +334,12 @@ ul {
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
+    -webkit-transition: background-color 300ms linear, color 300ms linear;
+    transition: background-color 300ms linear, color 300ms linear;
+  }
+  .hero__button-second:hover {
+    background-color: #cdae5d;
+    color: #f3fbff;
   }
 }
 

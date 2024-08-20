@@ -83,6 +83,14 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .hero__button-box {
+    display: flex;
+    width: 421px;
+    gap: 36px;
+  }
+}
+
 .hero__button-first {
   display: flex;
   align-items: center;
@@ -97,10 +105,21 @@
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+  transition: background-color 300ms linear, color 300ms linear;
 
   @media screen and (min-width: 834px) {
     width: 210px;
     margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 175px;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    background-color: rgba(210, 159, 27, 0.72);
+    color: $text-info;
   }
 }
 
@@ -120,6 +139,12 @@
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
+    transition: background-color 300ms linear, color 300ms linear;
+
+    &:hover {
+      background-color: $h2-section;
+      color: #f3fbff;
+    }
   }
 }
 
