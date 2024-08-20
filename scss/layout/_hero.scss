@@ -117,7 +117,8 @@
     margin-bottom: 0;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: rgba(210, 159, 27, 0.72);
     color: $text-info;
   }
@@ -141,7 +142,8 @@
     cursor: pointer;
     transition: background-color 300ms linear, color 300ms linear;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $h2-section;
       color: #f3fbff;
     }

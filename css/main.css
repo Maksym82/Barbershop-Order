@@ -312,7 +312,7 @@ ul {
     margin-bottom: 0;
   }
 }
-.hero__button-first:hover {
+.hero__button-first:hover, .hero__button-first:focus {
   background-color: rgba(210, 159, 27, 0.72);
   color: #d9d9d9;
 }
@@ -337,7 +337,7 @@ ul {
     -webkit-transition: background-color 300ms linear, color 300ms linear;
     transition: background-color 300ms linear, color 300ms linear;
   }
-  .hero__button-second:hover {
+  .hero__button-second:hover, .hero__button-second:focus {
     background-color: #cdae5d;
     color: #f3fbff;
   }
