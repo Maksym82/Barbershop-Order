@@ -149,6 +149,8 @@ ul {
   line-height: 137%;
   color: #d9d9d9;
   text-decoration: none;
+  -webkit-transition: color 300ms linear;
+  transition: color 300ms linear;
 }
 @media screen and (min-width: 1440px) {
   .header__link {
@@ -157,6 +159,9 @@ ul {
     line-height: 122%;
     letter-spacing: 0.05em;
   }
+}
+.header__link:hover, .header__link:focus {
+  color: #cdae5d;
 }
 
 .header__open-menu {

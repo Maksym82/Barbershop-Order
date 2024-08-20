@@ -94,12 +94,18 @@
   line-height: 137%;
   color: $text-info;
   text-decoration: none;
+  transition: color 300ms linear;
 
   @media screen and (min-width: 1440px) {
     font-weight: 600;
     font-size: 18px;
     line-height: 122%;
     letter-spacing: 0.05em;
+  }
+
+  &:hover, 
+  &:focus {
+    color: $h2-section;
   }
 }
 
