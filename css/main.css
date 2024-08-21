@@ -469,17 +469,44 @@ ul {
 }
 
 .about__text {
+  position: relative;
   font-weight: 400;
   line-height: 157%;
   color: #fff;
+  margin-bottom: 0;
+}
+
+.about__text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: -10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
 }
 
 .about__more-text {
+  position: relative;
   display: none;
   font-weight: 400;
   line-height: 157%;
   color: #fff;
   margin-top: 32px;
+}
+
+.about__more-text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: -10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
 }
 
 .read-more-btn {
@@ -489,9 +516,19 @@ ul {
   font-size: 14px;
   line-height: 179%;
   color: #cdae5d;
+  padding: 0;
+  text-align: end;
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.read-more-btn::after {
+  content: "";
+  display: block;
+  background-color: rgba(205, 174, 93, 0.24);
+  width: 132px;
+  height: 1px;
 }
 
 .about__text.show-more .about__more-text {
