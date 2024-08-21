@@ -6,8 +6,9 @@
 @import './base/reset';
 
 // Components
-
+@import './components/container';
 
 // Layout
 @import './layout/header';
 @import './layout/hero';
+@import './layout/about';
