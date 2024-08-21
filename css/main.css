@@ -474,6 +474,7 @@ ul {
   line-height: 157%;
   color: #fff;
   margin-bottom: 0;
+  padding-left: 15px;
 }
 
 .about__text::before {
@@ -481,7 +482,7 @@ ul {
   display: block;
   position: absolute;
   top: 7px;
-  left: -10px;
+  left: 0;
   width: 5px;
   height: 5px;
   border-radius: 50%;
