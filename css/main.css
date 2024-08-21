@@ -479,6 +479,7 @@ ul {
   font-weight: 400;
   line-height: 157%;
   color: #fff;
+  margin-top: 32px;
 }
 
 .read-more-btn {
@@ -491,4 +492,8 @@ ul {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.about__text.show-more .about__more-text {
+  display: inline;
 }/*# sourceMappingURL=main.css.map */
