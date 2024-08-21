@@ -443,6 +443,11 @@ ul {
   padding: 36px 0 32px;
   background-color: #0d151d;
 }
+@media screen and (min-width: 834px) {
+  .about {
+    max-width: 834px;
+  }
+}
 
 .about__title {
   font-weight: 600;
@@ -451,6 +456,15 @@ ul {
   letter-spacing: 0.05em;
   color: #cdae5d;
   text-align: center;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 834px) {
+  .about__title {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 80px;
+  }
 }
 
 .about__title::after {
@@ -462,6 +476,19 @@ ul {
   margin: 0 auto;
   margin-top: 8px;
   margin-bottom: 37px;
+}
+@media screen and (min-width: 834px) {
+  .about__title::after {
+    margin: 8px 0 37px -76px;
+  }
+}
+
+.about__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .about__image {

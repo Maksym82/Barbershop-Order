@@ -3,6 +3,10 @@
   margin: 0 auto;
   padding: 36px 0 32px;
   background-color: $sections;
+
+  @media screen and (min-width: 834px) {
+    max-width: 834px;
+  }
 }
 
 .about__title {
@@ -12,6 +16,14 @@
   letter-spacing: 0.05em;
   color: $h2-section;
   text-align: center;
+  margin-bottom: 0;
+
+  @media screen and (min-width: 834px) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 80px;
+  }
 }
 
 .about__title::after {
@@ -23,6 +35,15 @@
   margin: 0 auto;
   margin-top: 8px;
   margin-bottom: 37px;
+
+  @media screen and (min-width: 834px) {
+    margin: 8px 0 37px -76px;
+  }
+}
+
+.about__box {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about__image {
