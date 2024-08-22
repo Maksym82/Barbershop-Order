@@ -450,6 +450,12 @@ ul {
     max-width: 834px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .about {
+    min-width: 1440px;
+    padding: 36px 0 65px;
+  }
+}
 
 .about__title {
   font-weight: 600;
@@ -466,6 +472,11 @@ ul {
     font-weight: 400;
     text-align: left;
     margin-left: 80px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about__title {
+    margin-left: 0;
   }
 }
 
@@ -485,6 +496,13 @@ ul {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .about__main-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 .about__box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -493,11 +511,19 @@ ul {
       flex-wrap: wrap;
   margin-bottom: 30px;
 }
-
-.about__item:nth-child(1) {
-  margin-right: 48px;
+@media screen and (min-width: 1440px) {
+  .about__box {
+    width: 692px;
+    margin-bottom: 0;
+    margin-right: 105px;
+  }
 }
 
+@media screen and (min-width: 834px) {
+  .about__item:nth-child(1) {
+    margin-right: 48px;
+  }
+}
 .about__item:nth-child(2) {
   display: none;
 }
@@ -525,6 +551,15 @@ ul {
   }
 }
 
+.about__item:nth-child(4) {
+  display: none;
+}
+@media screen and (min-width: 834px) {
+  .about__item:nth-child(4) {
+    display: block;
+  }
+}
+
 .about__text {
   position: relative;
   font-weight: 400;
@@ -532,6 +567,13 @@ ul {
   color: #fff;
   margin-bottom: 0;
   padding-left: 15px;
+}
+@media screen and (min-width: 1440px) {
+  .about__text {
+    width: 337px;
+    font-size: 16px;
+    line-height: 219%;
+  }
 }
 
 .about__text::before {
@@ -544,6 +586,11 @@ ul {
   height: 5px;
   border-radius: 50%;
   background-color: #fff;
+}
+@media screen and (min-width: 1440px) {
+  .about__text::before {
+    top: 14px;
+  }
 }
 
 .about__more-text {
@@ -560,6 +607,11 @@ ul {
     margin-top: 0;
   }
 }
+@media screen and (min-width: 1440px) {
+  .about__more-text {
+    line-height: 219%;
+  }
+}
 
 .about__more-text::before {
   content: "";
@@ -571,6 +623,12 @@ ul {
   height: 5px;
   border-radius: 50%;
   background-color: #fff;
+}
+@media screen and (min-width: 1440px) {
+  .about__more-text::before {
+    top: 14px;
+    left: -14px;
+  }
 }
 
 .read-more-btn {
