@@ -9,6 +9,8 @@
 
 .swiper-block {
     position: relative;
+    padding-left: 58px;
+    padding-right: 59px;
 }
 
 .swiper-slide {
@@ -85,10 +87,10 @@
 
 .swiper-button-prev {
     position: absolute;
-    left: 120px;
+    left: 60px;
 }
 
 .swiper-button-next {
     position: absolute;
-    right: -220px;
+    right: -160px;
 }
