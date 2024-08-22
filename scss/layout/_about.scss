@@ -74,8 +74,6 @@
   }
 }
 
-
-
 .about__text {
   position: relative;
   font-weight: 400;
@@ -104,6 +102,11 @@
   line-height: 157%;
   color: $white;
   margin-top: 32px;
+
+  @media screen and (min-width: 834px) {
+    display: block;
+    margin-top: 0;
+  }
 }
 
 .about__more-text::before {
