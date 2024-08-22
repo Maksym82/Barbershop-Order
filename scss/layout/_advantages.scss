@@ -1,8 +1,42 @@
 .advantages {
-    max-width: 375px;
-    padding: 36px 0 32px;
-    margin: 0 auto;
-    border: 1px solid $h2-section;
-    border-top: none;
-    background-color: $sections;
+  max-width: 375px;
+  padding: 36px 0 32px;
+  margin: 0 auto;
+  border: 1px solid $h2-section;
+  border-top: none;
+  background-color: $sections;
+}
+
+.swiper-slide {
+  width: 218px;
+  height: 286px;
+  margin: 0 auto;
+  padding: 23px 15px 48px 26px;
+  border: 1px solid $h2-section;
+}
+
+.advantages__icon {
+  stroke: $h2-section;
+  fill: $sections;
+  border: 1px solid $h2-section;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 23px;
+}
+
+.advantages__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 179%;
+  color: $text;
+  margin-bottom: 23px;
+}
+
+.advantages__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: $text;
+  margin-bottom: 0;
 }

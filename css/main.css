@@ -669,4 +669,38 @@ ul {
   border: 1px solid #cdae5d;
   border-top: none;
   background-color: #0d151d;
+}
+
+.swiper-slide {
+  width: 218px;
+  height: 286px;
+  margin: 0 auto;
+  padding: 23px 15px 48px 26px;
+  border: 1px solid #cdae5d;
+}
+
+.advantages__icon {
+  stroke: #cdae5d;
+  fill: #0d151d;
+  border: 1px solid #cdae5d;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 23px;
+}
+
+.advantages__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 179%;
+  color: #eceff1;
+  margin-bottom: 23px;
+}
+
+.advantages__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #eceff1;
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
