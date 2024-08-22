@@ -40,3 +40,34 @@
   color: $text;
   margin-bottom: 0;
 }
+
+.swiper-btn-box {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(205, 174, 93, 0.31);
+    cursor: pointer;
+    transition: background-color 300ms linear;
+
+    &:hover,
+    &:focus {
+        background-color: $h2-section;
+    }
+}
+
+.icon-arrow {
+    width: 20px;
+    height: 20px;
+}
