@@ -664,14 +664,19 @@ ul {
 
 .advantages {
   max-width: 375px;
-  padding: 36px 0 32px;
+  padding: 36px 0 66px;
   margin: 0 auto;
   border: 1px solid #cdae5d;
   border-top: none;
   background-color: #0d151d;
 }
 
+.swiper-block {
+  position: relative;
+}
+
 .swiper-slide {
+  position: relative;
   width: 218px;
   height: 286px;
   margin: 0 auto;
@@ -706,14 +711,8 @@ ul {
 }
 
 .swiper-btn-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 16px;
-  margin-top: 16px;
+  position: absolute;
+  bottom: -46px;
 }
 
 .swiper-button-prev,
@@ -745,4 +744,22 @@ ul {
 .icon-arrow {
   width: 20px;
   height: 20px;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  left: 120px;
+}
+
+.swiper-button-next {
+  position: absolute;
+  right: -220px;
 }/*# sourceMappingURL=main.css.map */
