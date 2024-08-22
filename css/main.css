@@ -660,4 +660,13 @@ ul {
 
 .about__text.show-more .about__more-text {
   display: inline;
+}
+
+.advantages {
+  max-width: 375px;
+  padding: 36px 0 32px;
+  margin: 0 auto;
+  border: 1px solid #cdae5d;
+  border-top: none;
+  background-color: #0d151d;
 }/*# sourceMappingURL=main.css.map */
