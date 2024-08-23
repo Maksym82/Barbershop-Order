@@ -675,11 +675,22 @@ ul {
     max-width: 834px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .advantages {
+    max-width: 1440px;
+  }
+}
 
 .swiper-block {
   position: relative;
   padding-left: 58px;
   padding-right: 59px;
+}
+@media screen and (min-width: 1440px) {
+  .swiper-block {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .swiper-slide {
@@ -720,6 +731,11 @@ ul {
 .swiper-btn-box {
   position: absolute;
   bottom: -46px;
+}
+@media screen and (min-width: 1440px) {
+  .swiper-btn-box {
+    display: none;
+  }
 }
 
 .swiper-button-prev,

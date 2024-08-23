@@ -1,6 +1,6 @@
 var swiper = new Swiper('.my-swiper', {
   direction: 'horizontal',
-  loop: true,
+  loop: false,
   slidesPerView: 1,
   spaceBetween: 0,
   grabCursor: true,
@@ -10,7 +10,10 @@ var swiper = new Swiper('.my-swiper', {
     834: {
       slidesPerView: 2,
       spaceBetween: 10,
-      
+    },
+    1440: {
+      slidesPerView: 4,
+      spaceBetween: 10,
     },
   },
 
@@ -18,6 +21,4 @@ var swiper = new Swiper('.my-swiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
- 
 });

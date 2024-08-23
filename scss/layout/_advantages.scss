@@ -9,12 +9,21 @@
   @media screen and (min-width: 834px) {
     max-width: 834px;
   }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+  }
 }
 
 .swiper-block {
   position: relative;
   padding-left: 58px;
   padding-right: 59px;
+
+  @media screen and (min-width: 1440px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .swiper-slide {
@@ -55,6 +64,10 @@
 .swiper-btn-box {
   position: absolute;
   bottom: -46px;
+
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
 }
 
 .swiper-button-prev,
