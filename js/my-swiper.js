@@ -11,6 +11,7 @@ var swiper = new Swiper('.my-swiper', {
       slidesPerView: 2,
       spaceBetween: 10,
     },
+    // when window width is >= 1440px
     1440: {
       slidesPerView: 4,
       spaceBetween: 0,
