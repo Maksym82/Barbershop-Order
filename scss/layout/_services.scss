@@ -9,8 +9,8 @@
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid rgba(81, 61, 9, 0.5);
+  background-color: transparent;
 }
 
 .tab button {
@@ -19,22 +19,61 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 20px 6px 20px 6px;
+  line-height: 179%;
+  cursor: pointer;
+  color: $white;
+  transition: color 300ms linear;
 }
 
-.tab button:hover {
-  background-color: #ddd;
-}
+// .tablinks::after {
+
+// }
 
 .tab button.active {
-  background-color: #ccc;
+  color: $h2-section;
 }
 
 .tabcontent {
   display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
+  padding: 16px 6px 22px 10px;
+  border: 1px solid rgba(81, 61, 9, 0.5);
   border-top: none;
+}
+
+.barber__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barber__box:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.barber__services {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 208%;
+  color: $h2-section;
+  margin-bottom: 0;
+}
+
+.barber__price {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 208%;
+  color: $h2-section;
+  text-align: end;
+  margin-bottom: 0;
+}
+
+.barber__price::after {
+  content: '';
+  display: block;
+  border: 1px solid rgba(205, 174, 93, 0.24);
+  width: 150px;
+  height: 0px;
 }
