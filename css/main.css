@@ -681,13 +681,6 @@ ul {
   padding-left: 58px;
   padding-right: 59px;
 }
-@media screen and (min-width: 834px) {
-  .swiper-block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
 
 .swiper-slide {
   position: relative;
@@ -727,11 +720,6 @@ ul {
 .swiper-btn-box {
   position: absolute;
   bottom: -46px;
-}
-@media screen and (min-width: 834px) {
-  .swiper-btn-box {
-    display: none;
-  }
 }
 
 .swiper-button-prev,
@@ -777,8 +765,18 @@ ul {
   position: absolute;
   left: 60px;
 }
+@media screen and (min-width: 834px) {
+  .swiper-button-prev {
+    left: 260px;
+  }
+}
 
 .swiper-button-next {
   position: absolute;
   right: -160px;
+}
+@media screen and (min-width: 834px) {
+  .swiper-button-next {
+    right: -400px;
+  }
 }/*# sourceMappingURL=main.css.map */

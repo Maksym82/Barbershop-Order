@@ -15,13 +15,7 @@
   position: relative;
   padding-left: 58px;
   padding-right: 59px;
-
-  @media screen and (min-width: 834px) {
-    display: flex;
-  }
 }
-
-
 
 .swiper-slide {
   position: relative;
@@ -61,10 +55,6 @@
 .swiper-btn-box {
   position: absolute;
   bottom: -46px;
-
-  @media screen and (min-width: 834px) {
-    display: none;
-  }
 }
 
 .swiper-button-prev,
@@ -102,9 +92,17 @@
 .swiper-button-prev {
   position: absolute;
   left: 60px;
+
+  @media screen and (min-width: 834px) {
+    left: 260px;
+  }
 }
 
 .swiper-button-next {
   position: absolute;
   right: -160px;
+
+  @media screen and (min-width: 834px) {
+    right: -400px;
+  }
 }
