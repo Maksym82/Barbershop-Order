@@ -795,4 +795,13 @@ ul {
   .swiper-button-next {
     right: -400px;
   }
+}
+
+.services {
+  max-width: 375px;
+  padding: 36px 0 34px;
+  margin: 0 auto;
+  border: 1px solid #cdae5d;
+  border-top: none;
+  background-color: #0d151d;
 }/*# sourceMappingURL=main.css.map */
