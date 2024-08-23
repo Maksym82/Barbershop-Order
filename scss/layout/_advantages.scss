@@ -5,13 +5,23 @@
   border: 1px solid $h2-section;
   border-top: none;
   background-color: $sections;
+
+  @media screen and (min-width: 834px) {
+    max-width: 834px;
+  }
 }
 
 .swiper-block {
-    position: relative;
-    padding-left: 58px;
-    padding-right: 59px;
+  position: relative;
+  padding-left: 58px;
+  padding-right: 59px;
+
+  @media screen and (min-width: 834px) {
+    display: flex;
+  }
 }
+
+
 
 .swiper-slide {
   position: relative;
@@ -51,6 +61,10 @@
 .swiper-btn-box {
   position: absolute;
   bottom: -46px;
+
+  @media screen and (min-width: 834px) {
+    display: none;
+  }
 }
 
 .swiper-button-prev,
@@ -86,11 +100,11 @@
 }
 
 .swiper-button-prev {
-    position: absolute;
-    left: 60px;
+  position: absolute;
+  left: 60px;
 }
 
 .swiper-button-next {
-    position: absolute;
-    right: -160px;
+  position: absolute;
+  right: -160px;
 }

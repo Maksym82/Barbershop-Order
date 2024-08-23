@@ -670,11 +670,23 @@ ul {
   border-top: none;
   background-color: #0d151d;
 }
+@media screen and (min-width: 834px) {
+  .advantages {
+    max-width: 834px;
+  }
+}
 
 .swiper-block {
   position: relative;
   padding-left: 58px;
   padding-right: 59px;
+}
+@media screen and (min-width: 834px) {
+  .swiper-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .swiper-slide {
@@ -715,6 +727,11 @@ ul {
 .swiper-btn-box {
   position: absolute;
   bottom: -46px;
+}
+@media screen and (min-width: 834px) {
+  .swiper-btn-box {
+    display: none;
+  }
 }
 
 .swiper-button-prev,
