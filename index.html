@@ -373,23 +373,27 @@
           </div>
           <div class="barbers">
             <div class="barbers__container">
-              <ul>
-                <li>
-                  <img
-                    srcset="
-                      ./images/services/barber-archi@1x.jpg 185w,
-                      ./images/services/barber-archi@1x.jpg 370w
-                    "
-                    sizes="(min-width: 375px) 185px"
-                    alt="Barber Archi"
-                    src="./images/services/barber-archi.jpg"
-                  />
-                  <div class="barbers__box">
-                    <p class="barbers__name">Арчи</p>
-                    <p class="barbers__position">Pro Barber</p>
+              <div class="swiper my-swiper">
+                <div class="swiper-wrapper">
+                  <!--Barber #1-->
+                  <div class="swiper-slide">
+                    <img
+                      class="barbers__images"
+                      srcset="
+                        ./images/services/barber-archi@1x.jpg 185w,
+                        ./images/services/barber-archi@2x.jpg 370w
+                      "
+                      sizes="(min-width: 375px) 185px"
+                      alt="Barber Archi"
+                      src="./images/services/barber-archi.jpg"
+                    />
+                    <div class="barbers__box">
+                      <p class="barbers__name">Арчи</p>
+                      <p class="barbers__position">Pro Barber</p>
+                    </div>
                   </div>
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>

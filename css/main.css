@@ -881,6 +881,44 @@ ul {
 }
 
 .barbers__container {
-  padding: 16px 0 34px;
+  padding: 30px 20px 34px;
   margin: 0 auto;
+}
+
+.barbers__images {
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.barbers__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 28px;
+}
+
+.barbers__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.barbers__position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 179%;
+  color: #cdae5d;
+  margin-bottom: 0;
+}
+
+.barbers .swiper-slide {
+  border: none;
 }/*# sourceMappingURL=main.css.map */

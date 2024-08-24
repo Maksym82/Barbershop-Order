@@ -80,7 +80,38 @@
 
 // Barbers container
 .barbers__container {
-  padding: 16px 0 34px;
+  padding: 30px 20px 34px;
   margin: 0 auto;
+}
 
+.barbers__images {
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.barbers__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.barbers__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: $white;
+  margin-bottom: 0;
+}
+
+.barbers__position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 179%;
+  color: $h2-section;
+  margin-bottom: 0;
+}
+
+.barbers  .swiper-slide {
+  border: none;
 }
