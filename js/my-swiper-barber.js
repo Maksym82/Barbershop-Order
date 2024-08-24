@@ -1,6 +1,6 @@
-var swiper = new Swiper('.my-swiper', {
+var swiperBarber = new Swiper('.my-swiper-barber', {
   direction: 'horizontal',
-  loop: true,
+  loop: false,
   slidesPerView: 1,
   spaceBetween: 0,
   grabCursor: true,
@@ -19,10 +19,7 @@ var swiper = new Swiper('.my-swiper', {
   },
 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next-barber',
+    prevEl: '.swiper-button-prev-barber',
   },
 });
-
-
-

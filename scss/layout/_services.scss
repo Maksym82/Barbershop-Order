@@ -1,6 +1,6 @@
 .services {
   max-width: 375px;
-  padding: 36px 0 34px;
+  padding: 36px 0 64px;
   margin: 0 auto;
   border: 1px solid $h2-section;
   border-top: none;
@@ -80,6 +80,7 @@
 
 // Barbers container
 .barbers__container {
+  position: relative;
   padding: 30px 20px 34px;
   margin: 0 auto;
 }
@@ -112,6 +113,44 @@
   margin-bottom: 0;
 }
 
-.barbers  .swiper-slide {
+.barbers .swiper-slide {
   border: none;
+}
+
+.swiper-btn-box-barber {
+  position: absolute;
+  bottom: -6px;
+
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
+}
+
+.swiper-button-prev-barber,
+.swiper-button-next-barber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(205, 174, 93, 0.31);
+  cursor: pointer;
+  transition: background-color 300ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: $h2-section;
+  }
+}
+
+.swiper-button-prev-barber {
+  position: absolute;
+  left: 95px;
+}
+
+.swiper-button-next-barber {
+  position: absolute;
+  right: -200px;
 }
