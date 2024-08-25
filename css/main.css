@@ -818,6 +818,11 @@ ul {
 }
 @media screen and (min-width: 834px) {
   .tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     width: 510px;
     margin: 0 auto;
   }
@@ -838,6 +843,11 @@ ul {
   -webkit-transition: color 300ms linear;
   transition: color 300ms linear;
 }
+@media screen and (min-width: 834px) {
+  .tab button {
+    font-size: 16px;
+  }
+}
 
 .tab button.active {
   color: #cdae5d;
@@ -848,6 +858,13 @@ ul {
   padding: 16px 6px 22px 10px;
   border: 1px solid rgba(81, 61, 9, 0.5);
   border-top: none;
+}
+@media screen and (min-width: 834px) {
+  .tabcontent {
+    width: 510px;
+    margin: 0 auto;
+    padding: 20px 20px 22px 12px;
+  }
 }
 
 .barber__box {
@@ -873,6 +890,12 @@ ul {
   color: #cdae5d;
   margin-bottom: 0;
 }
+@media screen and (min-width: 834px) {
+  .barber__services {
+    font-size: 16px;
+    line-height: 175%;
+  }
+}
 
 .barber__price {
   font-weight: 500;
@@ -882,6 +905,12 @@ ul {
   text-align: end;
   margin-bottom: 0;
 }
+@media screen and (min-width: 834px) {
+  .barber__price {
+    font-size: 16px;
+    line-height: 175%;
+  }
+}
 
 .barber__price::after {
   content: "";
@@ -889,6 +918,11 @@ ul {
   border: 1px solid rgba(205, 174, 93, 0.24);
   width: 150px;
   height: 0px;
+}
+@media screen and (min-width: 834px) {
+  .barber__price::after {
+    width: 269px;
+  }
 }
 
 .barbers__container {

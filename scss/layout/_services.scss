@@ -17,6 +17,8 @@
   background-color: transparent;
 
   @media screen and (min-width: 834px) {
+    display: flex;
+    justify-content: space-around;
     width: 510px;
     margin: 0 auto;
   }
@@ -35,6 +37,10 @@
   cursor: pointer;
   color: $white;
   transition: color 300ms linear;
+
+  @media screen and (min-width: 834px) {
+    font-size: 16px;
+  }
 }
 
 // .tablinks::after {
@@ -50,6 +56,12 @@
   padding: 16px 6px 22px 10px;
   border: 1px solid rgba(81, 61, 9, 0.5);
   border-top: none;
+
+  @media screen and (min-width: 834px) {
+    width: 510px;
+    margin: 0 auto;
+    padding: 20px 20px 22px 12px;
+  }
 }
 
 .barber__box {
@@ -68,6 +80,11 @@
   line-height: 208%;
   color: $h2-section;
   margin-bottom: 0;
+
+  @media screen and (min-width: 834px) {
+    font-size: 16px;
+    line-height: 175%;
+  }
 }
 
 .barber__price {
@@ -77,6 +94,11 @@
   color: $h2-section;
   text-align: end;
   margin-bottom: 0;
+
+  @media screen and (min-width: 834px) {
+    font-size: 16px;
+    line-height: 175%;
+  }
 }
 
 .barber__price::after {
@@ -85,6 +107,10 @@
   border: 1px solid rgba(205, 174, 93, 0.24);
   width: 150px;
   height: 0px;
+
+  @media screen and (min-width: 834px) {
+    width: 269px;
+  }
 }
 
 // Barbers container
