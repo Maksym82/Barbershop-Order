@@ -1,6 +1,6 @@
 var swiperBarber = new Swiper('.my-swiper-barber', {
   direction: 'horizontal',
-  loop: false,
+  loop: true,
   slidesPerView: 1,
   spaceBetween: 0,
   grabCursor: true,
@@ -8,13 +8,13 @@ var swiperBarber = new Swiper('.my-swiper-barber', {
   breakpoints: {
     // when window width is >= 834px
     834: {
-      slidesPerView: 2,
-      spaceBetween: 10,
+      slidesPerView: 3,
+      spaceBetween: 0,
     },
     // when window width is >= 1440px
     1440: {
       slidesPerView: 4,
-      spaceBetween: 0,
+      spaceBetween: 32,
     },
   },
 
