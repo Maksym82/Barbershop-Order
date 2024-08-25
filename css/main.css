@@ -945,7 +945,7 @@ ul {
 
 .barbers__container {
   position: relative;
-  padding: 30px 20px 34px;
+  padding: 30px 20px 0;
   margin: 0 auto;
 }
 
@@ -1069,4 +1069,29 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+  -webkit-transition: background-color 300ms linear, color 300ms linear;
+  transition: background-color 300ms linear, color 300ms linear;
+}
+.services__button-first:hover, .services__button-first:focus {
+  background-color: rgba(210, 159, 27, 0.72);
+  color: #d9d9d9;
+}
+
+.services__button-second {
+  border-radius: 15px;
+  padding: 15px 18px;
+  width: 210px;
+  height: 50px;
+  background-color: rgba(205, 174, 93, 0.31);
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.services__button-second:hover, .services__button-second:focus {
+  background-color: #cdae5d;
+  color: #f3fbff;
 }/*# sourceMappingURL=main.css.map */

@@ -130,7 +130,7 @@
 // Barbers container
 .barbers__container {
   position: relative;
-  padding: 30px 20px 34px;
+  padding: 30px 20px 0;
   margin: 0 auto;
 }
 
@@ -228,4 +228,32 @@
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+  transition: background-color 300ms linear, color 300ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(210, 159, 27, 0.72);
+    color: $text-info;
+  }
+}
+
+.services__button-second {
+  border-radius: 15px;
+  padding: 15px 18px;
+  width: 210px;
+  height: 50px;
+  background-color: rgba(205, 174, 93, 0.31);
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $h2-section;
+    color: #f3fbff;
+  }
 }
