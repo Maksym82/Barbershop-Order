@@ -14,7 +14,7 @@ var swiperBarber = new Swiper('.my-swiper-barber', {
     // when window width is >= 1440px
     1440: {
       slidesPerView: 4,
-      spaceBetween: 32,
+      spaceBetween: 12,
     },
   },
 
