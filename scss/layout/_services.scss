@@ -8,6 +8,12 @@
 
   @media screen and (min-width: 834px) {
     max-width: 834px;
+    padding: 46px 0 106px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+    padding-bottom: 48px;
   }
 }
 
@@ -22,6 +28,10 @@
     justify-content: space-around;
     width: 510px;
     margin: 0 auto;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin: 0;
   }
 }
 
@@ -75,6 +85,10 @@
     width: 510px;
     margin: 0 auto;
     padding: 20px 20px 22px 12px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin: 0;
   }
 }
 
