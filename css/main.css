@@ -83,6 +83,7 @@ ul {
 @media screen and (min-width: 834px) {
   .section__title::after {
     margin: 8px 0 37px -76px;
+    width: 290px;
   }
 }
 
@@ -799,7 +800,7 @@ ul {
 
 .services {
   max-width: 375px;
-  padding: 36px 0 64px;
+  padding: 36px 0 34px;
   margin: 0 auto;
   border: 1px solid #cdae5d;
   border-top: none;
@@ -1046,6 +1047,19 @@ ul {
           justify-content: center;
   margin-top: 80px;
 }
+@media screen and (min-width: 834px) {
+  .services__buttons-box {
+    margin-top: 46px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 100px;
+  }
+}
 
 .services__button-first {
   display: -webkit-box;
@@ -1072,6 +1086,11 @@ ul {
   -webkit-transition: background-color 300ms linear, color 300ms linear;
   transition: background-color 300ms linear, color 300ms linear;
 }
+@media screen and (min-width: 834px) {
+  .services__button-first {
+    margin: 0;
+  }
+}
 .services__button-first:hover, .services__button-first:focus {
   background-color: rgba(210, 159, 27, 0.72);
   color: #d9d9d9;
@@ -1090,6 +1109,11 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+}
+@media screen and (min-width: 834px) {
+  .services__button-second {
+    margin: 0;
+  }
 }
 .services__button-second:hover, .services__button-second:focus {
   background-color: #cdae5d;
