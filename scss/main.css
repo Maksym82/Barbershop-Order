@@ -108,24 +108,14 @@ ul {
 
 .header__container {
   padding: 14px 20px 0 9px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 @media screen and (min-width: 834px) {
   .header__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    align-items: flex-start;
+    justify-content: space-between;
     padding: 36px 42px 0;
   }
 }
@@ -136,20 +126,13 @@ ul {
 }
 
 .logo__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
 
 .logo__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 2px;
 }
 
@@ -190,8 +173,6 @@ ul {
 
 @media screen and (min-width: 834px) {
   .header__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
@@ -207,7 +188,6 @@ ul {
   line-height: 137%;
   color: #d9d9d9;
   text-decoration: none;
-  -webkit-transition: color 300ms linear;
   transition: color 300ms linear;
 }
 @media screen and (min-width: 1440px) {
@@ -333,23 +313,15 @@ ul {
 
 @media screen and (min-width: 1440px) {
   .hero__button-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 421px;
     gap: 36px;
   }
 }
 .hero__button-first {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 175px;
   height: 50px;
   border-radius: 15px;
@@ -360,7 +332,6 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  -webkit-transition: background-color 300ms linear, color 300ms linear;
   transition: background-color 300ms linear, color 300ms linear;
 }
 @media screen and (min-width: 834px) {
@@ -397,7 +368,6 @@ ul {
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
-    -webkit-transition: background-color 300ms linear, color 300ms linear;
     transition: background-color 300ms linear, color 300ms linear;
   }
   .hero__button-second:hover, .hero__button-second:focus {
@@ -428,12 +398,8 @@ ul {
 }
 
 .hero__contacts-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .hero__contacts-item {
@@ -441,12 +407,8 @@ ul {
 }
 
 .contacts__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
   gap: 5px;
   margin-bottom: 6px;
 }
@@ -499,17 +461,12 @@ ul {
 
 @media screen and (min-width: 1440px) {
   .about__main-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 .about__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1440px) {
@@ -531,9 +488,7 @@ ul {
 @media screen and (min-width: 834px) {
   .about__item:nth-child(2) {
     display: block;
-    -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    order: -1;
     margin-right: 48px;
     margin-bottom: 30px;
   }
@@ -545,9 +500,7 @@ ul {
 @media screen and (min-width: 834px) {
   .about__item:nth-child(3) {
     display: block;
-    -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    order: -1;
     margin-bottom: 30px;
   }
 }
@@ -741,22 +694,15 @@ ul {
 
 .swiper-button-prev,
 .swiper-button-next {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 38px;
   height: 38px;
   border-radius: 50%;
   border: none;
   background-color: rgba(205, 174, 93, 0.31);
   cursor: pointer;
-  -webkit-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
 }
 .swiper-button-prev:hover, .swiper-button-prev:focus,
@@ -827,11 +773,8 @@ ul {
 }
 @media screen and (min-width: 834px) {
   .tab {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     width: 510px;
     margin: 0 auto;
   }
@@ -855,7 +798,6 @@ ul {
   border-bottom: 1px solid rgba(81, 61, 9, 0.5);
   cursor: pointer;
   color: #fff;
-  -webkit-transition: color 300ms linear;
   transition: color 300ms linear;
 }
 @media screen and (min-width: 834px) {
@@ -904,15 +846,9 @@ ul {
 }
 
 .barber__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .barber__box:not(:last-child) {
@@ -968,22 +904,15 @@ ul {
 }
 
 .barbers__images {
-  width: 185px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 12px;
 }
 
 .barbers__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   gap: 28px;
 }
 
@@ -1004,9 +933,8 @@ ul {
 }
 
 .barbers .swiper-slide {
-  width: 285px;
+  width: 185px;
   border: none;
-  padding: 0;
 }
 
 .swiper-btn-box-barber {
@@ -1021,22 +949,15 @@ ul {
 
 .swiper-button-prev-barber,
 .swiper-button-next-barber {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 38px;
   height: 38px;
   border-radius: 50%;
   border: none;
   background-color: rgba(205, 174, 93, 0.31);
   cursor: pointer;
-  -webkit-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
 }
 .swiper-button-prev-barber:hover, .swiper-button-prev-barber:focus,
@@ -1047,51 +968,33 @@ ul {
 
 .swiper-button-prev-barber {
   position: absolute;
-  left: 55px;
+  left: 95px;
 }
 
 .swiper-button-next-barber {
   position: absolute;
-  right: -160px;
+  right: -200px;
 }
 
 .services__buttons-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   margin-top: 80px;
 }
 @media screen and (min-width: 834px) {
   .services__buttons-box {
     margin-top: 46px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     gap: 100px;
   }
 }
 
 .services__button-first {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   border-radius: 15px;
   width: 210px;
@@ -1104,7 +1007,6 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
-  -webkit-transition: background-color 300ms linear, color 300ms linear;
   transition: background-color 300ms linear, color 300ms linear;
 }
 @media screen and (min-width: 834px) {
@@ -1130,7 +1032,6 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
-  -webkit-transition: background-color 300ms linear, color 300ms linear;
   transition: background-color 300ms linear, color 300ms linear;
 }
 @media screen and (min-width: 834px) {

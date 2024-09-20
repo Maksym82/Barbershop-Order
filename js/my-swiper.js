@@ -1,6 +1,6 @@
 var swiper = new Swiper('.my-swiper', {
   direction: 'horizontal',
-  loop: true,
+  loop: false,
   slidesPerView: 1,
   spaceBetween: 0,
   grabCursor: true,

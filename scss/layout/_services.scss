@@ -149,7 +149,9 @@
 }
 
 .barbers__images {
-  margin: 0 auto;
+  width: 185px;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 12px;
 }
 
@@ -177,7 +179,9 @@
 }
 
 .barbers .swiper-slide {
+  width: 285px;
   border: none;
+  padding: 0;
 }
 
 .swiper-btn-box-barber {
@@ -210,12 +214,12 @@
 
 .swiper-button-prev-barber {
   position: absolute;
-  left: 95px;
+  left: 55px;
 }
 
 .swiper-button-next-barber {
   position: absolute;
-  right: -200px;
+  right: -160px;
 }
 
 // Buttons
@@ -275,6 +279,7 @@
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+  transition: background-color 300ms linear, color 300ms linear;
 
   @media screen and (min-width: 834px) {
     margin: 0;
