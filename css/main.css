@@ -1172,4 +1172,13 @@ ul {
 .services__button-second:hover, .services__button-second:focus {
   background-color: #cdae5d;
   color: #f3fbff;
+}
+
+.gallery {
+  max-width: 375px;
+  padding: 36px 0;
+  margin: 0 auto;
+  border: 1px solid #cdae5d;
+  border-top: none;
+  background-color: #0d151d;
 }/*# sourceMappingURL=main.css.map */
