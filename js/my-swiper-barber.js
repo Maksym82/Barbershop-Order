@@ -9,7 +9,7 @@ var swiperBarber = new Swiper('.my-swiper-barber', {
     // when window width is >= 834px
     834: {
       slidesPerView: 3,
-      spaceBetween: -10,
+      spaceBetween: 0,
     },
     // when window width is >= 1440px
     1440: {
