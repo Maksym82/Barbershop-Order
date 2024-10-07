@@ -160,6 +160,10 @@
   align-items: center;
   justify-content: center;
   gap: 28px;
+
+  @media screen and (min-width: 834px) {
+    gap: 12px;
+  }
 }
 
 .barbers__name {

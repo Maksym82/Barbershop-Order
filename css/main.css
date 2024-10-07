@@ -986,6 +986,11 @@ ul {
           justify-content: center;
   gap: 28px;
 }
+@media screen and (min-width: 834px) {
+  .barbers__box {
+    gap: 12px;
+  }
+}
 
 .barbers__name {
   font-weight: 500;
