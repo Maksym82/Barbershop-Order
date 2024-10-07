@@ -1023,12 +1023,12 @@ ul {
 
 .barbers .swiper-slide {
   width: 185px;
-  padding: 0;
   border: none;
 }
 @media screen and (min-width: 1440px) {
   .barbers .swiper-slide {
     width: 198px;
+    padding: 0;
   }
 }
 
