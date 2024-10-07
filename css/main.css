@@ -1104,6 +1104,14 @@ ul {
     gap: 100px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .services__buttons-box {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-top: 55px;
+  }
+}
 
 .services__button-first {
   display: -webkit-box;
