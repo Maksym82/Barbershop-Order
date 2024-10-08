@@ -5,4 +5,19 @@
   border: 1px solid $h2-section;
   border-top: none;
   background-color: $sections;
+
+  @media screen and (min-width: 834px) {
+    max-width: 834px;
+    padding: 36px 0 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+    padding: 42px 0 50px;
+  }
+}
+
+.swiper__gallery-list > .swiper-slide {
+  padding: 0;
+  border: none;
 }

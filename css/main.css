@@ -1181,4 +1181,21 @@ ul {
   border: 1px solid #cdae5d;
   border-top: none;
   background-color: #0d151d;
+}
+@media screen and (min-width: 834px) {
+  .gallery {
+    max-width: 834px;
+    padding: 36px 0 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .gallery {
+    max-width: 1440px;
+    padding: 42px 0 50px;
+  }
+}
+
+.swiper__gallery-list > .swiper-slide {
+  padding: 0;
+  border: none;
 }/*# sourceMappingURL=main.css.map */
