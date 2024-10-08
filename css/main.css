@@ -1198,4 +1198,16 @@ ul {
 .swiper__gallery-list > .swiper-slide {
   padding: 0;
   border: none;
+}
+
+@media screen and (min-width: 834px) {
+  .swiper__gallery-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left: 152px;
+    padding-right: 152px;
+  }
 }/*# sourceMappingURL=main.css.map */
