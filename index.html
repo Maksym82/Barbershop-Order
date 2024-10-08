@@ -457,6 +457,44 @@
       <div class="container">
         <h2 class="section__title">Фотогалерея</h2>
       </div>
+      <!--Swiper gallery-->
+      <div class="swiper swiper__box">
+        <div class="swiper-wrapper swiper__gallery-list">
+          <!--Card #1-->
+          <div class="swiper-slide-gallery">
+            <img 
+            srcset="
+            ./images/gallery/gallery-1-mobile-374.jpg 374w,
+            ./images/gallery/gallery-1-mobile-748.jpg 748w,
+            ./images/gallery/gallery-1-tablet-355.jpg 355w,
+            ./images/gallery/gallery-1-tablet-710.jpg 710w,
+            ./images/gallery/gallery-1-desktop-548.jpg 548w,
+            ./images/gallery/gallery-1-desktop-1096.jpg 1096w,
+            " 
+            sizes="(min-width: 1440px) 548px, (min-width: 834px) 355px, (min-width: 375px) 374px"
+            alt="man in barbershop"
+            src="./images/gallery/gallery-1.jpg"
+            >
+          </div>
+          <!--Card #2-->
+          <div class="swiper-slide-gallery">
+            <img 
+            srcset="
+            ./images/gallery/gallery-2-mobile-374.jpg 374w,
+            ./images/gallery/gallery-2-mobile-748.jpg 748w,
+            ./images/gallery/gallery-2-tablet-355.jpg 355w,
+            ./images/gallery/gallery-2-tablet-710.jpg 710w,
+            ./images/gallery/gallery-2-desktop-548.jpg 548w,
+            ./images/gallery/gallery-2-desktop-1096.jpg 1096w,
+            " 
+            sizes="(min-width: 1440px) 548px, (min-width: 834px) 355px, (min-width: 375px) 374px"
+            alt="man in barbershop"
+            src="./images/gallery/gallery-2.jpg"
+            >
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
     <script src="./js/read-more.js"></script>
     <script src="./js/my-swiper.js" type="module"></script>
