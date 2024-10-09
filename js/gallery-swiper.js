@@ -17,15 +17,15 @@ const swiper = new Swiper('.swiper__box', {
     // Responsive breakpoints
     breakpoints: {
       // when window width is >= 768px
-      768: {
+      834: {
         slidesPerView: 6,
-        spaceBetween: 20,
+        enabled: false,
       },
       // when window width is >= 1280px
-      1280: {
-        slidesPerView: 6,
-        spaceBetween: 32,
-      },
+      // 1280: {
+      //   slidesPerView: 6,
+      //   spaceBetween: 32,
+      // },
     },
   });
   

@@ -1195,6 +1195,10 @@ ul {
   }
 }
 
+.swiper__box {
+  padding: 0 40px;
+}
+
 .swiper__gallery-list > .swiper-slide {
   padding: 0;
   border: none;
@@ -1207,7 +1211,5 @@ ul {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding-left: 152px;
-    padding-right: 152px;
   }
 }/*# sourceMappingURL=main.css.map */

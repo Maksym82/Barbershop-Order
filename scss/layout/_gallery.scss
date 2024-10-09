@@ -17,6 +17,10 @@
   }
 }
 
+.swiper__box {
+  padding: 0 40px;
+}
+
 .swiper__gallery-list > .swiper-slide {
   padding: 0;
   border: none;
@@ -26,7 +30,7 @@
   .swiper__gallery-list {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 152px;
-    padding-right: 152px;
   }
 }
+
+
