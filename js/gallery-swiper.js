@@ -1,7 +1,7 @@
 
 const swiper = new Swiper('.swiper__box', {
     // Optional parameters
-  
+    grabCursor: true,
     loop: false,
   
     // If we need pagination
@@ -19,7 +19,7 @@ const swiper = new Swiper('.swiper__box', {
       // when window width is >= 768px
       834: {
         slidesPerView: 6,
-        enabled: false,
+        // enabled: false,
       },
       // when window width is >= 1280px
       // 1280: {
