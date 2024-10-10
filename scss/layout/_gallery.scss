@@ -26,14 +26,15 @@
 .swiper__gallery-list > .swiper-slide {
   padding: 0;
   border: none;
+  margin-bottom: 100px;
 }
 
-// @media screen and (min-width: 834px) {
-//   .swiper__gallery-list {
-//     display: flex;
-//     flex-wrap: wrap;
-//   }
-// }
+@media screen and (min-width: 834px) {
+  .swiper__box > .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 
 .swiper-pagination-bullet {
   background-color: rgba(217, 217, 217, 0.8);
