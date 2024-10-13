@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 834px) {
   .swiper__gallery-list > .swiper-slide:nth-child(4) {
-    margin-bottom: 140px;
+    margin-bottom: 150px;
   }
 }
 
@@ -79,7 +79,7 @@
 
 @media screen and (min-width: 834px) {
   .swiper__gallery-list > .swiper-slide:nth-child(5) {
-    margin-top: 120px;
+    margin-top: 100px;
   }
 }
 
@@ -95,11 +95,9 @@
   }
 }
 
-
-
 @media screen and (min-width: 834px) {
   .swiper-slide:nth-child(6) > img {
-    width: 376px;
+    padding-left: 57px;
   }
 }
 
