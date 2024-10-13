@@ -1269,6 +1269,7 @@ ul {
 @media screen and (min-width: 1440px) {
   .swiper-slide:nth-child(6) > img {
     width: 517px;
+    padding: 0;
   }
 }
 @media screen and (min-width: 834px) {
