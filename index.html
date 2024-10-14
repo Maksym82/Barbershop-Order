@@ -588,7 +588,28 @@
               Борода - це вже давно частина іміджу. Щоб ваша борода мала приємний вигляд її потрібно доглядати.
               Ми поділимося з вами декількома порадами про те як і що потрібно робити з вашою бородою.</p>
             </div>
+            <!--Card #2-->
+            <div class="swiper-slide">
+              <img 
+              class="blog__image"
+              srcset="
+              ./images/blog/blog-2-mobile-330.jpg 330w,
+              ./images/blog/blog-2-mobile-660.jpg 660w,
+              ./images/blog/blog-2-tablet-348.jpg 348w,
+              ./images/blog/blog-2-tablet-696.jpg 696w,
+              ./images/blog/blog-2-desktop-508.jpg 508w,
+              ./images/blog/blog-2-desktop-1016.jpg 1016w,
+              "
+              sizes="(min-width: 1440px) 508px, (min-width: 834px) 348px, (min-width: 375px) 330px"
+              alt="man with beard"
+              src="./images/blog/blog-2.jpg"
+              >
+              <h3 class="blog__title">Інструмент барбера</h3>
+              <p class="blog__text">Перукарський інструмент – руки для барбера, від того, який саме 
+              інструмент він буде використовувати, залежить якість стрижок та послуги, які він може надати.</p>
+            </div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
@@ -597,6 +618,7 @@
     <script src="./js/my-swiper-barber.js" type="module"></script>
     <script src="./js/services.js"></script>
     <script src="./js/gallery-swiper.js" type="module"></script>
+    <script src="./js/swiper-blog.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
