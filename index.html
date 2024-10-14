@@ -57,7 +57,7 @@
               <a class="header__link" href="#gallery">Фотогалерея</a>
             </li>
             <li>
-              <a class="header__link" href="">Блог</a>
+              <a class="header__link" href="#blog">Блог</a>
             </li>
             <li>
               <a class="header__link" href="">Контакти</a>
@@ -561,14 +561,28 @@
       </div>
     </section>
     <!--Blog-->
-    <section class="blog">
+    <section class="blog" id="blog">
       <div class="container">
         <h2 class="section__title">Блог</h2>
         <!--Swiper blog-->
         <div class="swiper swiper__blog">
           <div class="swiper-wrapper swiper__blog-list">
             <!--Card #1-->
-            
+            <div class="swiper-slide">
+              <img 
+              srcset="
+              ./images/blog/blog-1-mobile-330.jpg 330w,
+              ./images/blog/blog-1-mobile-660.jpg 660w,
+              ./images/blog/blog-1-tablet-348.jpg 348w,
+              ./images/blog/blog-1-tablet-696.jpg 696w,
+              ./images/blog/blog-1-desktop-508.jpg 508w,
+              ./images/blog/blog-1-desktop-1016.jpg 1016w,
+              "
+              sizes="(min-width: 1440px) 508px, (min-width: 834px) 348px, (min-width: 375px) 330px"
+              alt="man with beard"
+              src="./images/blog/blog-1.jpg"
+              >
+            </div>
           </div>
         </div>
       </div>
