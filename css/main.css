@@ -1286,4 +1286,25 @@ ul {
 
 .swiper-pagination-bullet-active {
   background-color: #cdae5d;
+}
+
+.blog {
+  max-width: 375px;
+  padding: 36px 0;
+  margin: 0 auto;
+  background-color: #0d151d;
+  border: 1px solid #cdae5d;
+  border-top: none;
+}
+@media screen and (min-width: 834px) {
+  .blog {
+    max-width: 834px;
+    padding: 36px 0 41px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .blog {
+    max-width: 1440px;
+    padding: 45px 0 43px;
+  }
 }/*# sourceMappingURL=main.css.map */
