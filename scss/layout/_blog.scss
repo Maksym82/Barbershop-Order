@@ -20,11 +20,13 @@
 .swiper__blog-list > .swiper-slide {
   padding: 0;
   width: 330px;
-  height: 505px;
+  height: auto;
 }
 
 .blog__image {
+  width: 332px;
   margin-bottom: 20px;
+  border-bottom: 1px solid #cdae5d;
 }
 
 .blog__title {
@@ -45,4 +47,8 @@
   margin-bottom: 0;
   padding-left: 24px;
   padding-right: 20px;
+}
+
+.swiper__blog-list {
+  position: relative;
 }

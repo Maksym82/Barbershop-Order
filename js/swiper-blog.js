@@ -19,8 +19,7 @@ const swiper = new Swiper('.swiper__blog', {
       // when window width is >= 834px
       834: {
         slidesPerView: 2,
-        spaceBetween: 0,
-        enabled: false,
+        spaceBetween: 99,
       },
       // when window width is >= 1440px
       // 1440: {
