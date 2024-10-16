@@ -23,10 +23,10 @@ const swiper = new Swiper('.swiper__box', {
         enabled: false,
       },
       // when window width is >= 1440px
-      // 1440: {
-      //   slidesPerView: 6,
-      //   spaceBetween: 32,
-      // },
+      1440: {
+        slidesPerView: 2,
+        spaceBetween: 0,
+      },
     },
   });
   
