@@ -22,10 +22,10 @@ const swiper = new Swiper('.swiper__blog', {
         spaceBetween: 99,
       },
       // when window width is >= 1440px
-      // 1440: {
-      //   slidesPerView: 6,
-      //   spaceBetween: 32,
-      // },
+      1440: {
+        slidesPerView: 3,
+        spaceBetween: 67,
+      },
     },
   });
   
