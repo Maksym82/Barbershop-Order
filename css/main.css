@@ -1344,4 +1344,17 @@ ul {
 .swiper__blog > .swiper-pagination {
   position: relative;
   bottom: 0;
+}
+
+.footer {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 36px 0 41px;
+  background-color: #0d151d;
+  border: 1px solid #cdae5d;
+  border-top: none;
+}
+
+.footer__container {
+  padding: 0 30px;
 }/*# sourceMappingURL=main.css.map */
