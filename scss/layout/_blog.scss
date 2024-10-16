@@ -20,7 +20,7 @@
 .swiper__blog-list > .swiper-slide {
   padding: 0;
   width: 330px;
-  height: auto;
+  height: 510px;
 }
 
 .blog__image {
@@ -49,6 +49,7 @@
   padding-right: 20px;
 }
 
-.swiper__blog-list {
+.swiper__blog > .swiper-pagination {
   position: relative;
+  bottom: 0;
 }
