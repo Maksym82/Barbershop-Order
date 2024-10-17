@@ -12,7 +12,7 @@
   }
 
   @media screen and (min-width: 1440px) {
-    max-width: 1440px; 
+    max-width: 1440px;
     padding: 50px 0 148px;
   }
 }
@@ -20,6 +20,14 @@
 .footer__container {
   position: relative;
   padding: 0 30px;
+
+  @media screen and (min-width: 834px) {
+    padding: 0 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 0 150px;
+  }
 }
 
 @media screen and (min-width: 834px) {
@@ -82,6 +90,12 @@ iframe {
     right: 39px;
     bottom: -50px;
   }
+
+  @media screen and (min-width: 1440px) {
+    width: 525px;
+    height: 394px;
+    bottom: -55px;
+  }
 }
 
 .address__list {
@@ -89,7 +103,7 @@ iframe {
   flex-direction: column;
   gap: 29px;
   margin-bottom: 24px;
-  width: 350px;
+  width: 320px;
 }
 
 .address__link {
