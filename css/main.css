@@ -1360,6 +1360,12 @@ ul {
     padding: 50px 0 112px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .footer {
+    max-width: 1440px;
+    padding: 50px 0 148px;
+  }
+}
 
 .footer__container {
   position: relative;
@@ -1376,6 +1382,8 @@ ul {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     gap: 50px;
+    width: 350px;
+    margin-bottom: 24px;
   }
 }
 .logo__first-footer {
@@ -1401,12 +1409,18 @@ ul {
     font-weight: 500;
     font-size: 32px;
     line-height: 87%;
-    margin-bottom: 24px;
+    margin-bottom: 0;
   }
 }
 
 .logo__box-footer {
   margin-bottom: 28px;
+  width: 200px;
+}
+@media screen and (min-width: 834px) {
+  .logo__box-footer {
+    margin-bottom: 0;
+  }
 }
 
 iframe {
@@ -1437,6 +1451,7 @@ iframe {
           flex-direction: column;
   gap: 29px;
   margin-bottom: 24px;
+  width: 350px;
 }
 
 .address__link {
@@ -1487,6 +1502,7 @@ iframe {
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
+    width: 168px;
   }
 }
 
