@@ -33,9 +33,10 @@ iframe {
 }
 
 .address__list {
-    display: flex;
-    flex-direction: column;
-    gap: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-bottom: 24px;
 }
 
 .address__link {
@@ -51,8 +52,8 @@ iframe {
 }
 
 .address__link-footer {
-    width: 260px;
-    text-decoration: underline;
+  width: 260px;
+  text-decoration: underline;
 }
 
 .address__icon {
@@ -62,5 +63,28 @@ iframe {
 }
 
 .address__icon-footer {
-    width: 45px;
+  width: 45px;
+}
+
+.soc__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.soc__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $h2-section;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+}
+
+.soc__icon {
+  background-color: transparent;
+  fill: $h2-section;
+  stroke: #f5f5f5;
 }
