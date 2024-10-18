@@ -12,6 +12,10 @@ img {
   max-width: 100%;
 }
 
+body.header__open-menu {
+  overflow: hidden;
+}
+
 p,
 h1,
 h2,
@@ -32,6 +36,7 @@ ul {
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
 }
 @media screen and (min-width: 834px) {
   .container {
@@ -1646,4 +1651,8 @@ iframe {
   font-weight: 500;
   text-decoration: none;
   color: #cdae5d;
+}
+
+.open-menu {
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
