@@ -27,7 +27,6 @@
 .tab {
   overflow: hidden;
   border: 1px solid rgba(81, 61, 9, 0.5);
-  border-bottom: none;
   background-color: transparent;
 
   @media screen and (min-width: 834px) {
@@ -52,7 +51,6 @@
   font-size: 14px;
   padding: 20px 7px 20px 7px;
   line-height: 179%;
-  border-bottom: 1px solid rgba(81, 61, 9, 0.5);
   cursor: pointer;
   color: $white;
   transition: color 300ms linear;
@@ -62,21 +60,17 @@
   }
 }
 
-.tab button:nth-child(1):focus {
-  border-bottom: none;
-  border-right: 1px solid rgba(81, 61, 9, 0.5);
-}
+// .tab button:nth-child(1):focus {
+  
+// }
 
-.tab button:nth-child(2):focus {
-  border-bottom: none;
-  border-right: 1px solid rgba(81, 61, 9, 0.5);
-  border-left: 1px solid rgba(81, 61, 9, 0.5);
-}
+// .tab button:nth-child(2):focus {
 
-.tab button:nth-child(3):focus {
-  border-bottom: none;
-  border-left: 1px solid rgba(81, 61, 9, 0.5);
-}
+// }
+
+// .tab button:nth-child(3):focus {
+
+// }
 
 .tab button.active {
   color: $h2-section;
