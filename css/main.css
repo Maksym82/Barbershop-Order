@@ -707,6 +707,10 @@ ul {
   border: 1px solid #cdae5d;
 }
 
+.slide-advantages {
+  height: 267px;
+}
+
 .advantages__icon {
   stroke: #cdae5d;
   fill: #0d151d;
