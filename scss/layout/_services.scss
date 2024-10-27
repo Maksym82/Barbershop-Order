@@ -72,10 +72,6 @@
 
 // }
 
-.tab button.active {
-  color: $h2-section;
-}
-
 .tabcontent {
   display: none;
   padding: 16px 6px 22px 10px;
@@ -91,6 +87,14 @@
   @media screen and (min-width: 1440px) {
     margin: 0;
   }
+}
+
+.first-active {
+  display: block;
+}
+
+.tab button.active {
+  color: $h2-section;
 }
 
 .barber__box {

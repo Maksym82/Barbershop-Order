@@ -875,10 +875,6 @@ ul {
   }
 }
 
-.tab button.active {
-  color: #cdae5d;
-}
-
 .tabcontent {
   display: none;
   padding: 16px 6px 22px 10px;
@@ -896,6 +892,14 @@ ul {
   .tabcontent {
     margin: 0;
   }
+}
+
+.first-active {
+  display: block;
+}
+
+.tab button.active {
+  color: #cdae5d;
 }
 
 .barber__box {
