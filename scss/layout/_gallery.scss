@@ -89,17 +89,17 @@
 //   }
 // }
 
-// @media screen and (min-width: 1440px) {
-//   .swiper__gallery-list > .swiper-slide:nth-child(6) {
-//     padding-left: 57px;
-//   }
-// }
-
-@media screen and (min-width: 834px) {
-  .swiper-slide:nth-child(6) > img {
+@media screen and (min-width: 1440px) {
+  .swiper__gallery-list > .swiper-slide:nth-child(6) {
     padding-left: 57px;
   }
 }
+
+// @media screen and (min-width: 834px) {
+//   .swiper-slide:nth-child(6) > img {
+//     padding-left: 57px;
+//   }
+// }
 
 @media screen and (min-width: 1440px) {
   .swiper-slide:nth-child(6) > img {
