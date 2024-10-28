@@ -1203,6 +1203,11 @@ ul {
   padding: 0;
   border: none;
 }
+@media screen and (min-width: 834px) {
+  .swiper__gallery-list > .swiper-slide {
+    width: 372px;
+  }
+}
 
 @media screen and (min-width: 1440px) {
   .swiper__gallery-list > .swiper-slide:nth-child(6) {
@@ -1220,14 +1225,6 @@ ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 .swiper-pagination-bullet {

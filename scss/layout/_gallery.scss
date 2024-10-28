@@ -32,6 +32,10 @@
 .swiper__gallery-list > .swiper-slide {
   padding: 0;
   border: none;
+
+  @media screen and (min-width: 834px) {
+    width: 372px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -50,9 +54,10 @@
 @media screen and (min-width: 834px) {
   .swiper__box > .swiper-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    // flex-wrap: wrap;
+    // align-items: center;
+    // justify-content: center;
+    // gap: 10px;
   }
 }
 
