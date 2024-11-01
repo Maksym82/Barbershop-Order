@@ -25,7 +25,7 @@ const swiper = new Swiper('.swiper__box', {
       // when window width is >= 1440px
       1440: {
         slidesPerView: 2,
-        spaceBetween: 0,
+        spaceBetween: 20,
         // enabled: false,
       },
     },

@@ -38,28 +38,15 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .swiper__gallery-list > .swiper-slide:nth-child(6) {
-    padding-left: 57px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .swiper-slide:nth-child(6) > img {
-    width: 517px;
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: 834px) {
-  .swiper__box > .swiper-wrapper {
-    display: flex;
-    // flex-wrap: wrap;
-    // align-items: center;
-    // justify-content: center;
-    // gap: 10px;
-  }
-}
+// @media screen and (min-width: 834px) {
+//   .swiper__box > .swiper-wrapper {
+//     display: flex;
+//     // flex-wrap: wrap;
+//     // align-items: center;
+//     // justify-content: center;
+//     // gap: 10px;
+//   }
+// }
 
 .swiper-pagination-bullet {
   background-color: rgba(217, 217, 217, 0.8);
