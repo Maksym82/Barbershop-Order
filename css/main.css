@@ -1217,6 +1217,11 @@ ul {
   background-color: #cdae5d;
 }
 
+.swiper-pagination {
+  position: relative;
+  margin-top: 15px;
+}
+
 .blog {
   max-width: 375px;
   padding: 36px 0;
