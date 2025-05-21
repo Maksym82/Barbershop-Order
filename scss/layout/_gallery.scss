@@ -38,20 +38,15 @@
   }
 }
 
-// @media screen and (min-width: 834px) {
-//   .swiper__box > .swiper-wrapper {
-//     display: flex;
-//     // flex-wrap: wrap;
-//     // align-items: center;
-//     // justify-content: center;
-//     // gap: 10px;
-//   }
-// }
-
 .swiper-pagination-bullet {
   background-color: rgba(217, 217, 217, 0.8);
 }
 
 .swiper-pagination-bullet-active {
   background-color: $h2-section;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 15px;
 }
