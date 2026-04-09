@@ -39,14 +39,21 @@
 }
 
 .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
   background-color: rgba(217, 217, 217, 0.8);
 }
 
 .swiper-pagination-bullet-active {
+  width: 10px;
+  height: 10px;
   background-color: $h2-section;
 }
 
 .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
   position: relative;
-  margin-top: 15px;
+  margin-top: 30px;
 }
