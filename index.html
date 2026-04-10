@@ -1,9 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbershop Order</title>
+    <meta
+      name="description"
+      content="Барбершоп в центре города: стрижки, уход за бородой и стильные образы для мужчин."
+    />
     <!--Favicon-->
     <link rel="icon" type="image/png" href="./images/favicon-logo.png" />
     <!--Fonts-->
@@ -35,7 +39,7 @@
       <div class="header__container">
         <div class="logo__box">
           <a href="./index.html">
-            <img class="logo__img" src="./images/logo.png" alt="logo" />
+            <img class="logo__img" src="./images/logo__img2.svg" alt="logo" />
           </a>
           <div class="logo__text">
             <p class="logo__first">Order</p>
@@ -64,7 +68,11 @@
             </li>
           </ul>
         </nav>
-        <button class="header__open-menu js-open-menu" type="button" aria-label="Відкрити меню">
+        <button
+          class="header__open-menu js-open-menu"
+          type="button"
+          aria-label="Відкрити меню"
+        >
           <svg class="header__icon-menu">
             <use href="./images/icons.svg#icon-menu-open"></use>
           </svg>
@@ -74,7 +82,11 @@
     <!--Mobile menu-->
     <div class="mobile-menu js-menu-container open-menu">
       <div class="mobile-menu-container">
-        <button class="burger-menu-close js-close-menu" type="button" aria-label="Закрыть меню">
+        <button
+          class="burger-menu-close js-close-menu"
+          type="button"
+          aria-label="Закрыть меню"
+        >
           <svg class="icon-burger-close" width="24" height="24">
             <use href="./images/icons.svg#icon-burger-close"></use>
           </svg>
@@ -82,597 +94,626 @@
         <nav class="mobile__navigation">
           <ul>
             <li class="mobile__item">
-              <a class="mobile__link mobile-header-link" href="#hero">Головна</a>
+              <a class="mobile__link mobile-header-link" href="#hero"
+                >Головна</a
+              >
             </li>
             <li class="mobile__item">
-              <a class="mobile__link mobile-header-link" href="#about">Про нас</a>
+              <a class="mobile__link mobile-header-link" href="#about"
+                >Про нас</a
+              >
             </li>
             <li class="mobile__item">
-              <a class="mobile__link mobile-header-link" href="#services">Послуги</a>
+              <a class="mobile__link mobile-header-link" href="#services"
+                >Послуги</a
+              >
             </li>
             <li class="mobile__item">
-              <a class="mobile__link mobile-header-link" href="#gallery">Фотогалерея</a>
+              <a class="mobile__link mobile-header-link" href="#gallery"
+                >Фотогалерея</a
+              >
             </li>
             <li class="mobile__item">
               <a class="mobile__link mobile-header-link" href="#blog">Блог</a>
             </li>
             <li class="mobile__item">
-              <a class="mobile__link mobile-header-link" href="#contacts">Контакти</a>
+              <a class="mobile__link mobile-header-link" href="#contacts"
+                >Контакти</a
+              >
             </li>
           </ul>
         </nav>
       </div>
     </div>
     <main>
-    <!--Hero-->
-    <section class="hero" id="hero">
-      <div class="hero__container">
-        <h1 class="hero__title">Order</h1>
-        <p class="hero__subtitle">barbershop із твоїм характером</p>
-        <div class="hero__button-box">
-          <a class="hero__button-first" href="#contacts">Записатися</a>
-          <a class="hero__button-second" href="#services">Вибрати послугу</a>
+      <!--Hero-->
+      <section class="hero" id="hero">
+        <div class="hero__container">
+          <h1 class="hero__title">Order</h1>
+          <p class="hero__subtitle">barbershop із твоїм характером</p>
+          <div class="hero__button-box">
+            <a class="hero__button-first" href="#contacts">Записатися</a>
+            <a class="hero__button-second" href="#services">Вибрати послугу</a>
+          </div>
         </div>
-      </div>
-      <div class="hero__contacts">
-        <ul class="hero__contacts-list">
-          <!--Item #1-->
-          <li class="hero__contacts-item">
-            <div class="contacts__box">
-              <svg class="contacts__icon">
-                <use href="./images/icons.svg#icon-clock"></use>
-              </svg>
-              <p class="contacts-first">Графік роботи</p>
-            </div>
-            <p class="contacts-second">10:00 - 21:00 кожного дня</p>
-          </li>
-          <!--Item #2-->
-          <li class="hero__contacts-item">
-            <div class="contacts__box">
-              <svg class="contacts__icon">
-                <use href="./images/icons.svg#icon-adres"></use>
-              </svg>
-              <p class="contacts-first">Адреса</p>
-            </div>
-            <address>
-              <a
-                class="contacts-second second-item"
-                href="https://maps.app.goo.gl/oU5gbwUukUzSDLar5"
-                target="_blank"
-                rel="noreferrer noopener"
-                >Раїси Окіпної, 4А м.Київ</a
+        <div class="hero__contacts">
+          <ul class="hero__contacts-list">
+            <!--Item #1-->
+            <li class="hero__contacts-item">
+              <div class="contacts__box">
+                <svg class="contacts__icon">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+                <p class="contacts-first">Графік роботи</p>
+              </div>
+              <p class="contacts-second">10:00 - 21:00 кожного дня</p>
+            </li>
+            <!--Item #2-->
+            <li class="hero__contacts-item">
+              <div class="contacts__box">
+                <svg class="contacts__icon">
+                  <use href="./images/icons.svg#icon-adres"></use>
+                </svg>
+                <p class="contacts-first">Адреса</p>
+              </div>
+              <address>
+                <a
+                  class="contacts-second second-item"
+                  href="https://maps.app.goo.gl/oU5gbwUukUzSDLar5"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >Раїси Окіпної, 4А м.Київ</a
+                >
+              </address>
+            </li>
+            <!--Item #3-->
+            <li class="hero__contacts-item">
+              <div class="contacts__box">
+                <svg class="contacts__icon">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                <p class="contacts-first">Контакти</p>
+              </div>
+              <a class="contacts-second second-item" href="tel:+380683339393"
+                >+38 068 333 93 93</a
               >
-            </address>
-          </li>
-          <!--Item #3-->
-          <li class="hero__contacts-item">
-            <div class="contacts__box">
-              <svg class="contacts__icon">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-              <p class="contacts-first">Контакти</p>
-            </div>
-            <a class="contacts-second second-item" href="tel:+380683339393"
-              >+38 068 333 93 93</a
-            >
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!--About-->
-    <section class="about" id="about">
-      <div class="container">
-        <h2 class="section__title">Про нас ORDER</h2>
-        <div class="about__main-content">
-          <ul class="about__box">
-            <li class="about__item">
-              <img
-                class="about__image"
-                srcset="
-                  ./images/about/about-mobile@1x.jpg  334w,
-                  ./images/about/about-mobile@2x.jpg  668w,
-                  ./images/about/about-tablet@1x.jpg  418w,
-                  ./images/about/about-tablet@2x.jpg  836w,
-                  ./images/about/about-desktop@1x.jpg 385w,
-                  ./images/about/about-desktop@2x.jpg 770w
-                "
-                sizes="(min-width: 1440px) 385px, (min-width: 834px) 418px, (min-width: 375px) 334px"
-                alt="Barbershop"
-                src="./images/about/about-1.jpg"
-              />
-            </li>
-            <li class="about__item">
-              <img
-                class="about__image"
-                srcset="
-                  ./images/about/about-tablet-2-@1x.jpg  280w,
-                  ./images/about/about-tablet-2-@2x.jpg  560w,
-                  ./images/about/about-desktop-2-@1x.jpg 258w,
-                  ./images/about/about-desktop-2-@2x.jpg 516w
-                "
-                sizes="(min-width: 1440px) 258px, (min-width: 834px) 280px"
-                alt="Barbershop"
-                src="./images/about/about-2.jpg"
-              />
-            </li>
-            <li class="about__item">
-              <img
-                class="about__image"
-                srcset="
-                  ./images/about/about-tablet-3-@1x.jpg  418w,
-                  ./images/about/about-tablet-3-@2x.jpg  836w,
-                  ./images/about/about-desktop-3-@1x.jpg 385w,
-                  ./images/about/about-desktop-3-@2x.jpg 770w
-                "
-                sizes="(min-width: 1440px) 385px, (min-width: 834px) 418px"
-                alt="Barbershop"
-                src="./images/about/about-3.jpg"
-              />
-            </li>
-            <li class="about__item">
-              <img
-                class="about__image"
-                srcset="
-                  ./images/about/about-tablet-4-@1x.jpg  280w,
-                  ./images/about/about-tablet-4-@2x.jpg  560w,
-                  ./images/about/about-desktop-4-@1x.jpg 258w,
-                  ./images/about/about-desktop-4-@2x.jpg 516w
-                "
-                sizes="(min-width: 1440px) 258px, (min-width: 834px) 280px"
-                alt="Barbershop"
-                src="./images/about/about-4.jpg"
-              />
             </li>
           </ul>
-          <p class="about__text">
-            Ласкаво просимо до нашого нового барбершопу - це місце, де справжня
-            майстерність поєднується з неповторною атмосферою! Ми - команда з
-            різним рівнем компетенції , чиї навички та знання дозволяють нам
-            успішно виконувати будь-яку задачу.<br /><br />
-            <span class="about__more-text">
-              Ми пишаємося тим, що можемо запропонувати доступні ціни, не
-              жертвуючи якістю послуг та прагнемо зробити наш барбершоп
-              доступним і дружнім місцем для всіх - від молодих хлопців до
-              досвідчених джентльменів.
-            </span>
-          </p>
-          <button class="read-more-btn">Читати далі</button>
         </div>
-      </div>
-    </section>
-    <!--Advantages-->
-    <section class="advantages">
-      <div class="container">
-        <h2 class="section__title">Наші переваги</h2>
-        <div class="swiper-block">
-          <div class="swiper my-swiper">
-            <div class="swiper-wrapper">
-              <!--Card #1-->
-              <div class="swiper-slide slide-advantages">
-                <svg class="advantages__icon">
-                  <use href="./images/icons.svg#icon-scissors"></use>
-                </svg>
-                <h3 class="advantages__title">Досвідчені майстри</h3>
-                <p class="advantages__text">
-                  ORDER – це досвідчені барбери з чудовим почуттям стилю. Це
-                  професіонали, які пройшли стажування та кваліфікації
-                </p>
-              </div>
-              <!--Card #2-->
-              <div class="swiper-slide slide-advantages">
-                <svg class="advantages__icon">
-                  <use href="./images/icons.svg#icon-star"></use>
-                </svg>
-                <h3 class="advantages__title">Якість та комфорт</h3>
-                <p class="advantages__text">
-                  Ми використовуємо інструмент професійного рівня та преміальні
-                  косметичні засоби для догляду за волоссям
-                </p>
-              </div>
-              <!--Card #3-->
-              <div class="swiper-slide slide-advantages">
-                <svg class="advantages__icon">
-                  <use href="./images/icons.svg#icon-services"></use>
-                </svg>
-                <h3 class="advantages__title">Різноманітність послуг</h3>
-                <p class="advantages__text">
-                  ORDER ви можете зробити стильну стрижку, оформити бороду та
-                  вуса, камуфлювання сивини, та отримати інші послуги 
-                </p>
-              </div>
-              <!--Card #4-->
-              <div class="swiper-slide slide-advantages">
-                <svg class="advantages__icon">
-                  <use href="./images/icons.svg#icon-price"></use>
-                </svg>
-                <h3 class="advantages__title">Доступні ціни</h3>
-                <p class="advantages__text">
-                  Ми маємо лояльні ціни, тому послуги барбешопа доступні
-                  кожному. Ви завжди залишитеся задоволені відмінним результатом
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-btn-box">
-            <button class="swiper-button-prev" type="button">
-              <svg class="icon-arrow">
-                <use href="./images/icons.svg#icon-arrow-left"></use>
-              </svg>
-            </button>
-            <button class="swiper-button-next" type="button">
-              <svg class="icon-arrow">
-                <use href="./images/icons.svg#icon-arrow-right"></use>
-              </svg>
-            </button>
+      </section>
+      <!--About-->
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="section__title">Про нас ORDER</h2>
+          <div class="about__main-content">
+            <ul class="about__box">
+              <li class="about__item">
+                <img
+                  class="about__image"
+                  srcset="
+                    ./images/about/about-mobile@1x.jpg  334w,
+                    ./images/about/about-mobile@2x.jpg  668w,
+                    ./images/about/about-tablet@1x.jpg  418w,
+                    ./images/about/about-tablet@2x.jpg  836w,
+                    ./images/about/about-desktop@1x.jpg 385w,
+                    ./images/about/about-desktop@2x.jpg 770w
+                  "
+                  sizes="(min-width: 1440px) 385px, (min-width: 834px) 418px, (min-width: 375px) 334px"
+                  alt="Barbershop"
+                  src="./images/about/about-1.jpg"
+                />
+              </li>
+              <li class="about__item">
+                <img
+                  class="about__image"
+                  srcset="
+                    ./images/about/about-tablet-2-@1x.jpg  280w,
+                    ./images/about/about-tablet-2-@2x.jpg  560w,
+                    ./images/about/about-desktop-2-@1x.jpg 258w,
+                    ./images/about/about-desktop-2-@2x.jpg 516w
+                  "
+                  sizes="(min-width: 1440px) 258px, (min-width: 834px) 280px"
+                  alt="Barbershop"
+                  src="./images/about/about-2.jpg"
+                />
+              </li>
+              <li class="about__item">
+                <img
+                  class="about__image"
+                  srcset="
+                    ./images/about/about-tablet-3-@1x.jpg  418w,
+                    ./images/about/about-tablet-3-@2x.jpg  836w,
+                    ./images/about/about-desktop-3-@1x.jpg 385w,
+                    ./images/about/about-desktop-3-@2x.jpg 770w
+                  "
+                  sizes="(min-width: 1440px) 385px, (min-width: 834px) 418px"
+                  alt="Barbershop"
+                  src="./images/about/about-3.jpg"
+                />
+              </li>
+              <li class="about__item">
+                <img
+                  class="about__image"
+                  srcset="
+                    ./images/about/about-tablet-4-@1x.jpg  280w,
+                    ./images/about/about-tablet-4-@2x.jpg  560w,
+                    ./images/about/about-desktop-4-@1x.jpg 258w,
+                    ./images/about/about-desktop-4-@2x.jpg 516w
+                  "
+                  sizes="(min-width: 1440px) 258px, (min-width: 834px) 280px"
+                  alt="Barbershop"
+                  src="./images/about/about-4.jpg"
+                />
+              </li>
+            </ul>
+            <p class="about__text">
+              Ласкаво просимо до нашого нового барбершопу - це місце, де
+              справжня майстерність поєднується з неповторною атмосферою! Ми -
+              команда з різним рівнем компетенції , чиї навички та знання
+              дозволяють нам успішно виконувати будь-яку задачу.<br /><br />
+              <span class="about__more-text">
+                Ми пишаємося тим, що можемо запропонувати доступні ціни, не
+                жертвуючи якістю послуг та прагнемо зробити наш барбершоп
+                доступним і дружнім місцем для всіх - від молодих хлопців до
+                досвідчених джентльменів.
+              </span>
+            </p>
+            <button class="read-more-btn">Читати далі</button>
           </div>
         </div>
-      </div>
-    </section>
-    <!--Services-->
-    <section class="services" id="services">
-      <div class="container">
-        <h2 class="section__title">Послуги та ціни</h2>
-        <div class="services__main-block">
-          <div class="tab">
-            <button class="tablinks active" onclick="openCity(event, 'London')">
-              Молодший барбер
-            </button>
-            <button class="tablinks" onclick="openCity(event, 'Paris')">
-              Барбер
-            </button>
-            <button class="tablinks" onclick="openCity(event, 'Tokyo')">
-              Топ Барбер
-            </button>
+      </section>
+      <!--Advantages-->
+      <section class="advantages">
+        <div class="container">
+          <h2 class="section__title">Наші переваги</h2>
+          <div class="swiper-block">
+            <div class="swiper my-swiper">
+              <div class="swiper-wrapper">
+                <!--Card #1-->
+                <div class="swiper-slide slide-advantages">
+                  <svg class="advantages__icon">
+                    <use href="./images/icons.svg#icon-scissors"></use>
+                  </svg>
+                  <h3 class="advantages__title">Досвідчені майстри</h3>
+                  <p class="advantages__text">
+                    ORDER – це досвідчені барбери з чудовим почуттям стилю. Це
+                    професіонали, які пройшли стажування та кваліфікації
+                  </p>
+                </div>
+                <!--Card #2-->
+                <div class="swiper-slide slide-advantages">
+                  <svg class="advantages__icon">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <h3 class="advantages__title">Якість та комфорт</h3>
+                  <p class="advantages__text">
+                    Ми використовуємо інструмент професійного рівня та
+                    преміальні косметичні засоби для догляду за волоссям
+                  </p>
+                </div>
+                <!--Card #3-->
+                <div class="swiper-slide slide-advantages">
+                  <svg class="advantages__icon">
+                    <use href="./images/icons.svg#icon-services"></use>
+                  </svg>
+                  <h3 class="advantages__title">Різноманітність послуг</h3>
+                  <p class="advantages__text">
+                    ORDER ви можете зробити стильну стрижку, оформити бороду та
+                    вуса, камуфлювання сивини, та отримати інші послуги
+                  </p>
+                </div>
+                <!--Card #4-->
+                <div class="swiper-slide slide-advantages">
+                  <svg class="advantages__icon">
+                    <use href="./images/icons.svg#icon-price"></use>
+                  </svg>
+                  <h3 class="advantages__title">Доступні ціни</h3>
+                  <p class="advantages__text">
+                    Ми маємо лояльні ціни, тому послуги барбешопа доступні
+                    кожному. Ви завжди залишитеся задоволені відмінним
+                    результатом
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-btn-box">
+              <button class="swiper-button-prev" type="button">
+                <svg class="icon-arrow">
+                  <use href="./images/icons.svg#icon-arrow-left"></use>
+                </svg>
+              </button>
+              <button class="swiper-button-next" type="button">
+                <svg class="icon-arrow">
+                  <use href="./images/icons.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
           </div>
-          <div id="London" class="tabcontent first-active">
-            <div class="barber__box">
-              <p class="barber__services">Чоловіча стрижка</p>
-              <span class="barber__price">350 грн</span>
+        </div>
+      </section>
+      <!--Services-->
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="section__title">Послуги та ціни</h2>
+          <div class="services__main-block">
+            <div class="tab">
+              <button
+                class="tablinks active"
+                onclick="openCity(event, 'London')"
+              >
+                Молодший барбер
+              </button>
+              <button class="tablinks" onclick="openCity(event, 'Paris')">
+                Барбер
+              </button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+                Топ Барбер
+              </button>
             </div>
-            <div class="barber__box">
-              <p class="barber__services">Стрижка машинкою</p>
-              <span class="barber__price">250 грн</span>
+            <div id="London" class="tabcontent first-active">
+              <div class="barber__box">
+                <p class="barber__services">Чоловіча стрижка</p>
+                <span class="barber__price">350 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Стрижка машинкою</p>
+                <span class="barber__price">250 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Моделюваня бороди</p>
+                <span class="barber__price">250 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Традиційне гоління</p>
+                <span class="barber__price">300 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Камуфлювання сивини</p>
+                <span class="barber__price">300 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Укладка</p>
+                <span class="barber__price">100 грн</span>
+              </div>
             </div>
-            <div class="barber__box">
-              <p class="barber__services">Моделюваня бороди</p>
-              <span class="barber__price">250 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Традиційне гоління</p>
-              <span class="barber__price">300 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Камуфлювання сивини</p>
-              <span class="barber__price">300 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Укладка</p>
-              <span class="barber__price">100 грн</span>
-            </div>
-          </div>
 
-          <div id="Paris" class="tabcontent">
-            <div class="barber__box">
-              <p class="barber__services">Чоловіча стрижка</p>
-              <span class="barber__price">400 грн</span>
+            <div id="Paris" class="tabcontent">
+              <div class="barber__box">
+                <p class="barber__services">Чоловіча стрижка</p>
+                <span class="barber__price">400 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Стрижка машинкою</p>
+                <span class="barber__price">300 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Моделюваня бороди</p>
+                <span class="barber__price">300 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Традиційне гоління</p>
+                <span class="barber__price">350 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Камуфлювання сивини</p>
+                <span class="barber__price">350 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Укладка</p>
+                <span class="barber__price">150 грн</span>
+              </div>
             </div>
-            <div class="barber__box">
-              <p class="barber__services">Стрижка машинкою</p>
-              <span class="barber__price">300 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Моделюваня бороди</p>
-              <span class="barber__price">300 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Традиційне гоління</p>
-              <span class="barber__price">350 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Камуфлювання сивини</p>
-              <span class="barber__price">350 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Укладка</p>
-              <span class="barber__price">150 грн</span>
-            </div>
-          </div>
 
-          <div id="Tokyo" class="tabcontent">
-            <div class="barber__box">
-              <p class="barber__services">Чоловіча стрижка</p>
-              <span class="barber__price">450 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Стрижка машинкою</p>
-              <span class="barber__price">350 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Моделюваня бороди</p>
-              <span class="barber__price">350 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Традиційне гоління</p>
-              <span class="barber__price">400 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Камуфлювання сивини</p>
-              <span class="barber__price">350 грн</span>
-            </div>
-            <div class="barber__box">
-              <p class="barber__services">Укладка</p>
-              <span class="barber__price">150 грн</span>
+            <div id="Tokyo" class="tabcontent">
+              <div class="barber__box">
+                <p class="barber__services">Чоловіча стрижка</p>
+                <span class="barber__price">450 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Стрижка машинкою</p>
+                <span class="barber__price">350 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Моделюваня бороди</p>
+                <span class="barber__price">350 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Традиційне гоління</p>
+                <span class="barber__price">400 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Камуфлювання сивини</p>
+                <span class="barber__price">350 грн</span>
+              </div>
+              <div class="barber__box">
+                <p class="barber__services">Укладка</p>
+                <span class="barber__price">150 грн</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="barbers">
-          <div class="barbers__container">
-            <div class="swiper-block">
-              <div class="swiper my-swiper-barber">
-                <div class="swiper-wrapper">
-                  <!--Barber #1-->
-                  <div class="swiper-slide">
-                    <img
-                      class="barbers__images"
-                      srcset="
-                        ./images/services/barber-archi@1x.jpg 185w,
-                        ./images/services/barber-archi@2x.jpg 370w
-                      "
-                      sizes="(min-width: 375px) 185px"
-                      alt="Barber Archi"
-                      src="./images/services/barber-archi.jpg"
-                    />
-                    <div class="barbers__box">
-                      <p class="barbers__name">Арчи</p>
-                      <p class="barbers__position">Pro Barber</p>
+          <div class="barbers">
+            <div class="barbers__container">
+              <div class="swiper-block">
+                <div class="swiper my-swiper-barber">
+                  <div class="swiper-wrapper">
+                    <!--Barber #1-->
+                    <div class="swiper-slide">
+                      <img
+                        class="barbers__images"
+                        srcset="
+                          ./images/services/barber-archi@1x.jpg 185w,
+                          ./images/services/barber-archi@2x.jpg 370w
+                        "
+                        sizes="(min-width: 375px) 185px"
+                        alt="Barber Archi"
+                        src="./images/services/barber-archi.jpg"
+                      />
+                      <div class="barbers__box">
+                        <p class="barbers__name">Арчи</p>
+                        <p class="barbers__position">Pro Barber</p>
+                      </div>
+                    </div>
+                    <!--Barber #2-->
+                    <div class="swiper-slide">
+                      <img
+                        class="barbers__images"
+                        srcset="
+                          ./images/services/barber-viktor@1x.jpg 185w,
+                          ./images/services/barber-viktor@2x.jpg 370w
+                        "
+                        sizes="(min-width: 375px) 185px"
+                        alt="Barber Viktor"
+                        src="./images/services/barber-viktor.jpg"
+                      />
+                      <div class="barbers__box">
+                        <p class="barbers__name">Віктор</p>
+                        <p class="barbers__position">Top Barber</p>
+                      </div>
+                    </div>
+                    <!--Barber #3-->
+                    <div class="swiper-slide">
+                      <img
+                        class="barbers__images"
+                        srcset="
+                          ./images/services/barber-yaroslav@1x.jpg 185w,
+                          ./images/services/barber-yaroslav@2x.jpg 370w
+                        "
+                        sizes="(min-width: 375px) 185px"
+                        alt="Barber Yaroslav"
+                        src="./images/services/barber-yaroslav.jpg"
+                      />
+                      <div class="barbers__box">
+                        <p class="barbers__name">Ярослав</p>
+                        <p class="barbers__position">Top Barber</p>
+                      </div>
                     </div>
                   </div>
-                  <!--Barber #2-->
-                  <div class="swiper-slide">
-                    <img
-                      class="barbers__images"
-                      srcset="
-                        ./images/services/barber-viktor@1x.jpg 185w,
-                        ./images/services/barber-viktor@2x.jpg 370w
-                      "
-                      sizes="(min-width: 375px) 185px"
-                      alt="Barber Viktor"
-                      src="./images/services/barber-viktor.jpg"
-                    />
-                    <div class="barbers__box">
-                      <p class="barbers__name">Віктор</p>
-                      <p class="barbers__position">Top Barber</p>
-                    </div>
+                  <div class="swiper-btn-box-barber">
+                    <button class="swiper-button-prev-barber" type="button">
+                      <svg class="icon-arrow">
+                        <use href="./images/icons.svg#icon-arrow-left"></use>
+                      </svg>
+                    </button>
+                    <button class="swiper-button-next-barber" type="button">
+                      <svg class="icon-arrow">
+                        <use href="./images/icons.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
                   </div>
-                  <!--Barber #3-->
-                  <div class="swiper-slide">
-                    <img
-                      class="barbers__images"
-                      srcset="
-                        ./images/services/barber-yaroslav@1x.jpg 185w,
-                        ./images/services/barber-yaroslav@2x.jpg 370w
-                      "
-                      sizes="(min-width: 375px) 185px"
-                      alt="Barber Yaroslav"
-                      src="./images/services/barber-yaroslav.jpg"
-                    />
-                    <div class="barbers__box">
-                      <p class="barbers__name">Ярослав</p>
-                      <p class="barbers__position">Top Barber</p>
-                    </div>
+                  <div class="services__buttons-box">
+                    <a class="services__button-first" href="#contacts"
+                      >Записатися</a
+                    >
+                    <a class="services__button-second" href="#services"
+                      >Вибрати послугу</a
+                    >
                   </div>
-                </div>
-                <div class="swiper-btn-box-barber">
-                  <button class="swiper-button-prev-barber" type="button">
-                    <svg class="icon-arrow">
-                      <use href="./images/icons.svg#icon-arrow-left"></use>
-                    </svg>
-                  </button>
-                  <button class="swiper-button-next-barber" type="button">
-                    <svg class="icon-arrow">
-                      <use href="./images/icons.svg#icon-arrow-right"></use>
-                    </svg>
-                  </button>
-                </div>
-                <div class="services__buttons-box">
-                  <a class="services__button-first" href="#contacts">Записатися</a>
-                  <a class="services__button-second" href="#services">Вибрати послугу</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!--Gallery-->
-    <section class="gallery" id="gallery">
-      <div class="container">
-        <h2 class="section__title">Фотогалерея</h2>
-      </div>
-      <!--Swiper gallery-->
-      <div class="swiper swiper__box">
-        <div class="swiper-wrapper swiper__gallery-list">
-          <!--Card #1-->
-          <div class="swiper-slide">
-            <img 
-            srcset="
-            ./images/gallery/gallery-1-mobile-374.jpg 374w,
-            ./images/gallery/gallery-1-mobile-748.jpg 748w,
-            ./images/gallery/gallery-1-tablet-372.jpg 372w,
-            ./images/gallery/gallery-1-tablet-744.jpg 744w,
-            ./images/gallery/gallery-1-desktop-560.jpg 560w,
-            ./images/gallery/gallery-1-desktop-1120.jpg 1120w
-            " 
-            sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
-            alt="man in barbershop"
-            src="./images/gallery/gallery-1.jpg"
-            >
-          </div>
-          <!--Card #2-->
-          <div class="swiper-slide">
-            <img 
-            srcset="
-            ./images/gallery/gallery-2-mobile-374.jpg 374w,
-            ./images/gallery/gallery-2-mobile-748.jpg 748w,
-            ./images/gallery/gallery-2-tablet-372.jpg 372w,
-            ./images/gallery/gallery-2-tablet-744.jpg 744w,
-            ./images/gallery/gallery-2-desktop-560.jpg 560w,
-            ./images/gallery/gallery-2-desktop-1120.jpg 1120w
-            " 
-            sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
-            alt="man in barbershop"
-            src="./images/gallery/gallery-2.jpg"
-            >
-          </div>
-          <!--Card #3-->
-          <div class="swiper-slide">
-            <img 
-            srcset="
-            ./images/gallery/gallery-3-mobile-374.jpg 374w,
-            ./images/gallery/gallery-3-mobile-748.jpg 748w,
-            ./images/gallery/gallery-3-tablet-372.jpg 372w,
-            ./images/gallery/gallery-3-tablet-744.jpg 744w,
-            ./images/gallery/gallery-3-desktop-560.jpg 560w,
-            ./images/gallery/gallery-3-desktop-1120.jpg 1120w
-            " 
-            sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
-            alt="man in barbershop"
-            src="./images/gallery/gallery-3.jpg"
-            >
-          </div>
-          <!--Card #4-->
-          <div class="swiper-slide">
-            <img 
-            srcset="
-            ./images/gallery/gallery-4-mobile-374.jpg 374w,
-            ./images/gallery/gallery-4-mobile-748.jpg 748w,
-            ./images/gallery/gallery-4-tablet-372.jpg 372w,
-            ./images/gallery/gallery-4-tablet-744.jpg 744w,
-            ./images/gallery/gallery-4-desktop-560.jpg 560w,
-            ./images/gallery/gallery-4-desktop-1120.jpg 1120w
-            " 
-            sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
-            alt="man in barbershop"
-            src="./images/gallery/gallery-4.jpg"
-            >
-          </div>
-          <!--Card #5-->
-          <div class="swiper-slide">
-            <img 
-            srcset="
-            ./images/gallery/gallery-5-mobile-374.jpg 374w,
-            ./images/gallery/gallery-5-mobile-748.jpg 748w,
-            ./images/gallery/gallery-5-tablet-372.jpg 372w,
-            ./images/gallery/gallery-5-tablet-744.jpg 744w,
-            ./images/gallery/gallery-5-desktop-560.jpg 560w,
-            ./images/gallery/gallery-5-desktop-1120.jpg 1120w
-            " 
-            sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
-            alt="man in barbershop"
-            src="./images/gallery/gallery-5.jpg"
-            >
-          </div>
-          <!--Card #6-->
-          <div class="swiper-slide">
-            <img 
-            srcset="
-            ./images/gallery/gallery-6-mobile-374.jpg 374w,
-            ./images/gallery/gallery-6-mobile-748.jpg 748w,
-            ./images/gallery/gallery-6-tablet-372.jpg 372w,
-            ./images/gallery/gallery-6-tablet-744.jpg 744w,
-            ./images/gallery/gallery-6-desktop-560.jpg 560w,
-            ./images/gallery/gallery-6-desktop-1120.jpg 1120w
-            " 
-            sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
-            alt="barbershop chair"
-            src="./images/gallery/gallery-6.jpg"
-            >
-          </div>
+      </section>
+      <!--Gallery-->
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <h2 class="section__title">Фотогалерея</h2>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
-    <!--Blog-->
-    <section class="blog" id="blog">
-      <div class="container">
-        <h2 class="section__title">Блог</h2>
-        <!--Swiper blog-->
-        <div class="swiper swiper__blog">
-          <div class="swiper-wrapper swiper__blog-list">
+        <!--Swiper gallery-->
+        <div class="swiper swiper__box">
+          <div class="swiper-wrapper swiper__gallery-list">
             <!--Card #1-->
             <div class="swiper-slide">
-              <img 
-              class="blog__image"
-              srcset="
-              ./images/blog/blog-1-mobile-330.jpg 330w,
-              ./images/blog/blog-1-mobile-660.jpg 660w
-              "
-              sizes="(min-width: 375px) 330px"
-              alt="man with a beard"
-              src="./images/blog/blog-1.jpg"
-              >
-              <h3 class="blog__title">Догляд за бородою</h3>
-              <p class="blog__text">Борода сьогодні це вже не просто борода, а й стиль і спосіб слідувати модним тенденціям.
-              Борода - це вже давно частина іміджу. Щоб ваша борода мала приємний вигляд її потрібно доглядати.
-              Ми поділимося з вами декількома порадами про те як і що потрібно робити з вашою бородою.</p>
+              <img
+                srcset="
+                  ./images/gallery/gallery-1-mobile-374.jpg    374w,
+                  ./images/gallery/gallery-1-mobile-748.jpg    748w,
+                  ./images/gallery/gallery-1-tablet-372.jpg    372w,
+                  ./images/gallery/gallery-1-tablet-744.jpg    744w,
+                  ./images/gallery/gallery-1-desktop-560.jpg   560w,
+                  ./images/gallery/gallery-1-desktop-1120.jpg 1120w
+                "
+                sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
+                alt="man in barbershop"
+                src="./images/gallery/gallery-1.jpg"
+              />
             </div>
             <!--Card #2-->
             <div class="swiper-slide">
-              <img 
-              class="blog__image"
-              srcset="
-              ./images/blog/blog-2-mobile-330.jpg 330w,
-              ./images/blog/blog-2-mobile-660.jpg 660w
-              "
-              sizes="(min-width: 375px) 330px"
-              alt="barber tools"
-              src="./images/blog/blog-2.jpg"
-              >
-              <h3 class="blog__title">Інструмент барбера</h3>
-              <p class="blog__text">Перукарський інструмент – руки для барбера, від того, який саме 
-              інструмент він буде використовувати, залежить якість стрижок та послуги, які він може надати.</p>
+              <img
+                srcset="
+                  ./images/gallery/gallery-2-mobile-374.jpg    374w,
+                  ./images/gallery/gallery-2-mobile-748.jpg    748w,
+                  ./images/gallery/gallery-2-tablet-372.jpg    372w,
+                  ./images/gallery/gallery-2-tablet-744.jpg    744w,
+                  ./images/gallery/gallery-2-desktop-560.jpg   560w,
+                  ./images/gallery/gallery-2-desktop-1120.jpg 1120w
+                "
+                sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
+                alt="man in barbershop"
+                src="./images/gallery/gallery-2.jpg"
+              />
             </div>
             <!--Card #3-->
             <div class="swiper-slide">
-              <img 
-              class="blog__image"
-              srcset="
-              ./images/blog/blog-3-mobile-330.jpg 330w,
-              ./images/blog/blog-3-mobile-660.jpg 660w
-              "
-              sizes="(min-width: 375px) 330px"
-              alt="man with a beard"
-              src="./images/blog/blog-3.jpg"
-              >
-              <h3 class="blog__title">Найкращі стрижки</h3>
-              <p class="blog__text">Стильна стрижка – важлива частина чоловічого образу. Підібравши її правильно, 
-                можна помолодшати на кілька років, стати солідніше або навіть знайти
-                схожість з романтичним кіногероєм ...
-              </p>
+              <img
+                srcset="
+                  ./images/gallery/gallery-3-mobile-374.jpg    374w,
+                  ./images/gallery/gallery-3-mobile-748.jpg    748w,
+                  ./images/gallery/gallery-3-tablet-372.jpg    372w,
+                  ./images/gallery/gallery-3-tablet-744.jpg    744w,
+                  ./images/gallery/gallery-3-desktop-560.jpg   560w,
+                  ./images/gallery/gallery-3-desktop-1120.jpg 1120w
+                "
+                sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
+                alt="man in barbershop"
+                src="./images/gallery/gallery-3.jpg"
+              />
             </div>
             <!--Card #4-->
             <div class="swiper-slide">
-              <img 
-              class="blog__image"
-              srcset="
-              ./images/blog/blog-4-mobile-330.jpg 330w,
-              ./images/blog/blog-4-mobile-660.jpg 660w
-              "
-              sizes="(min-width: 375px) 330px"
-              alt="man with a beard and moustache"
-              src="./images/blog/blog-4.jpg"
-              >
-              <h3 class="blog__title">Як відростити шикарні вуса</h3>
-              <p class="blog__text">Багато чоловіків, плануючи виростити гарні вуса, 
-                стикаються з низкою складнощів і кидають свою витівку ще на ранній стадії. 
-                Сьогодні ми поговоримо про те, як відростити вуса і відкриємо кілька секретів.
-              </p>
+              <img
+                srcset="
+                  ./images/gallery/gallery-4-mobile-374.jpg    374w,
+                  ./images/gallery/gallery-4-mobile-748.jpg    748w,
+                  ./images/gallery/gallery-4-tablet-372.jpg    372w,
+                  ./images/gallery/gallery-4-tablet-744.jpg    744w,
+                  ./images/gallery/gallery-4-desktop-560.jpg   560w,
+                  ./images/gallery/gallery-4-desktop-1120.jpg 1120w
+                "
+                sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
+                alt="man in barbershop"
+                src="./images/gallery/gallery-4.jpg"
+              />
+            </div>
+            <!--Card #5-->
+            <div class="swiper-slide">
+              <img
+                srcset="
+                  ./images/gallery/gallery-5-mobile-374.jpg    374w,
+                  ./images/gallery/gallery-5-mobile-748.jpg    748w,
+                  ./images/gallery/gallery-5-tablet-372.jpg    372w,
+                  ./images/gallery/gallery-5-tablet-744.jpg    744w,
+                  ./images/gallery/gallery-5-desktop-560.jpg   560w,
+                  ./images/gallery/gallery-5-desktop-1120.jpg 1120w
+                "
+                sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
+                alt="man in barbershop"
+                src="./images/gallery/gallery-5.jpg"
+              />
+            </div>
+            <!--Card #6-->
+            <div class="swiper-slide">
+              <img
+                srcset="
+                  ./images/gallery/gallery-6-mobile-374.jpg    374w,
+                  ./images/gallery/gallery-6-mobile-748.jpg    748w,
+                  ./images/gallery/gallery-6-tablet-372.jpg    372w,
+                  ./images/gallery/gallery-6-tablet-744.jpg    744w,
+                  ./images/gallery/gallery-6-desktop-560.jpg   560w,
+                  ./images/gallery/gallery-6-desktop-1120.jpg 1120w
+                "
+                sizes="(min-width: 1440px) 560px, (min-width: 834px) 372px, (min-width: 375px) 374px"
+                alt="barbershop chair"
+                src="./images/gallery/gallery-6.jpg"
+              />
             </div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!--Blog-->
+      <section class="blog" id="blog">
+        <div class="container">
+          <h2 class="section__title">Блог</h2>
+          <!--Swiper blog-->
+          <div class="swiper swiper__blog">
+            <div class="swiper-wrapper swiper__blog-list">
+              <!--Card #1-->
+              <div class="swiper-slide">
+                <img
+                  class="blog__image"
+                  srcset="
+                    ./images/blog/blog-1-mobile-330.jpg 330w,
+                    ./images/blog/blog-1-mobile-660.jpg 660w
+                  "
+                  sizes="(min-width: 375px) 330px"
+                  alt="man with a beard"
+                  src="./images/blog/blog-1.jpg"
+                />
+                <h3 class="blog__title">Догляд за бородою</h3>
+                <p class="blog__text">
+                  Борода сьогодні це вже не просто борода, а й стиль і спосіб
+                  слідувати модним тенденціям. Борода - це вже давно частина
+                  іміджу. Щоб ваша борода мала приємний вигляд її потрібно
+                  доглядати. Ми поділимося з вами декількома порадами про те як
+                  і що потрібно робити з вашою бородою.
+                </p>
+              </div>
+              <!--Card #2-->
+              <div class="swiper-slide">
+                <img
+                  class="blog__image"
+                  srcset="
+                    ./images/blog/blog-2-mobile-330.jpg 330w,
+                    ./images/blog/blog-2-mobile-660.jpg 660w
+                  "
+                  sizes="(min-width: 375px) 330px"
+                  alt="barber tools"
+                  src="./images/blog/blog-2.jpg"
+                />
+                <h3 class="blog__title">Інструмент барбера</h3>
+                <p class="blog__text">
+                  Перукарський інструмент – руки для барбера, від того, який
+                  саме інструмент він буде використовувати, залежить якість
+                  стрижок та послуги, які він може надати.
+                </p>
+              </div>
+              <!--Card #3-->
+              <div class="swiper-slide">
+                <img
+                  class="blog__image"
+                  srcset="
+                    ./images/blog/blog-3-mobile-330.jpg 330w,
+                    ./images/blog/blog-3-mobile-660.jpg 660w
+                  "
+                  sizes="(min-width: 375px) 330px"
+                  alt="man with a beard"
+                  src="./images/blog/blog-3.jpg"
+                />
+                <h3 class="blog__title">Найкращі стрижки</h3>
+                <p class="blog__text">
+                  Стильна стрижка – важлива частина чоловічого образу.
+                  Підібравши її правильно, можна помолодшати на кілька років,
+                  стати солідніше або навіть знайти схожість з романтичним
+                  кіногероєм ...
+                </p>
+              </div>
+              <!--Card #4-->
+              <div class="swiper-slide">
+                <img
+                  class="blog__image"
+                  srcset="
+                    ./images/blog/blog-4-mobile-330.jpg 330w,
+                    ./images/blog/blog-4-mobile-660.jpg 660w
+                  "
+                  sizes="(min-width: 375px) 330px"
+                  alt="man with a beard and moustache"
+                  src="./images/blog/blog-4.jpg"
+                />
+                <h3 class="blog__title">Як відростити шикарні вуса</h3>
+                <p class="blog__text">
+                  Багато чоловіків, плануючи виростити гарні вуса, стикаються з
+                  низкою складнощів і кидають свою витівку ще на ранній стадії.
+                  Сьогодні ми поговоримо про те, як відростити вуса і відкриємо
+                  кілька секретів.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
     </main>
     <!--Footer-->
     <footer class="footer" id="contacts">
@@ -681,7 +722,7 @@
           <h2 class="footer__title">Наші контакти</h2>
           <div class="logo__box logo__box-footer">
             <a href="./index.html">
-              <img class="logo__img" src="./images/logo.png" alt="logo" />
+              <img class="logo__img" src="./images/logo__img2.svg" alt="logo" />
             </a>
             <div class="logo__text">
               <p class="logo__first logo__first-footer">Order</p>
@@ -690,66 +731,93 @@
           </div>
         </div>
         <div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.542735492165!2d30.591617475781884!3d50.44961738742472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfedde9f9717%3A0xcc4fe80c5333179c!2zNEEsINGD0LsuINCg0LDQuNGB0Ysg0J7QutC40L_QvdC-0LksIDTQkCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1729103932665!5m2!1sru!2sua" 
-          width="600" height="450" 
-          style="border:0;" allowfullscreen="" 
-          referrerpolicy="no-referrer-when-downgrade"
-          title="Карта расположения офиса">
-        </iframe>
-        <address>
-          <ul class="address__list">
-            <li class="address__item">
-              <a class="address__link" href="tel:+380683339393">
-                <svg class="address__icon">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-                +38 068 333 93 93
-              </a>
-            </li>
-            <li class="address__item">
-              <a class="address__link address__link-footer" href="https://maps.app.goo.gl/XzsE9e7vAxhvDUxQA" 
-              target="_blank"  rel="noreferrer noopener">
-                <svg class="address__icon address__icon-footer" width="25" height="25">
-                  <use href="./images/icons.svg#icon-address"></use>
-                </svg>
-                Вулиця Раїси Окіпної, 4А Київ, Украина, 02000
-              </a>
-            </li>
-          </ul>
-          <div class="soc__block">
-            <ul class="soc__list">
-              <li class="soc__item">
-                <a class="soc__link" href="https://uk-ua.facebook.com/" target="_blank" aria-label="Facebook">
-                  <svg class="soc__icon" width="18" height="22">
-                    <use href="./images/icons.svg#icon-facebook"></use>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.542735492165!2d30.591617475781884!3d50.44961738742472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfedde9f9717%3A0xcc4fe80c5333179c!2zNEEsINGD0LsuINCg0LDQuNGB0Ysg0J7QutC40L_QvdC-0LksIDTQkCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1729103932665!5m2!1sru!2sua"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Карта расположения офиса"
+          >
+          </iframe>
+          <address>
+            <ul class="address__list">
+              <li class="address__item">
+                <a class="address__link" href="tel:+380683339393">
+                  <svg class="address__icon">
+                    <use href="./images/icons.svg#icon-phone"></use>
                   </svg>
+                  +38 068 333 93 93
                 </a>
               </li>
-              <li class="soc__item">
-                <a class="soc__link" href="https://telegram.org/" target="_blank" aria-label="Telegram">
-                  <svg class="soc__icon" width="26" height="25">
-                    <use href="./images/icons.svg#icon-telegram"></use>
+              <li class="address__item">
+                <a
+                  class="address__link address__link-footer"
+                  href="https://maps.app.goo.gl/XzsE9e7vAxhvDUxQA"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <svg
+                    class="address__icon address__icon-footer"
+                    width="25"
+                    height="25"
+                  >
+                    <use href="./images/icons.svg#icon-address"></use>
                   </svg>
-                </a>
-              </li>
-              <li class="soc__item">
-                <a class="soc__link" href="https://www.order-barbershop.com/" target="_blank" aria-label="Instagram">
-                  <svg class="soc__icon" width="28" height="28">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
+                  Вулиця Раїси Окіпної, 4А Київ, Украина, 02000
                 </a>
               </li>
             </ul>
-          </div>
-        </address>
+            <div class="soc__block">
+              <ul class="soc__list">
+                <li class="soc__item">
+                  <a
+                    class="soc__link"
+                    href="https://uk-ua.facebook.com/"
+                    target="_blank"
+                    aria-label="Facebook"
+                  >
+                    <svg class="soc__icon" width="18" height="22">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="soc__item">
+                  <a
+                    class="soc__link"
+                    href="https://telegram.org/"
+                    target="_blank"
+                    aria-label="Telegram"
+                  >
+                    <svg class="soc__icon" width="26" height="25">
+                      <use href="./images/icons.svg#icon-telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="soc__item">
+                  <a
+                    class="soc__link"
+                    href="https://www.order-barbershop.com/"
+                    target="_blank"
+                    aria-label="Instagram"
+                  >
+                    <svg class="soc__icon" width="28" height="28">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </address>
         </div>
       </div>
     </footer>
     <!--Scroll up-->
-    <div  id="scrollToTop">
-    <svg class="scroll-up" width="60" height="60">
-      <use href="./images/icons.svg#icon-arrow-up"></use>
-    </svg>
+    <div id="scrollToTop">
+      <svg class="scroll-up" width="60" height="60">
+        <use href="./images/icons.svg#icon-arrow-up"></use>
+      </svg>
     </div>
 
     <script src="./js/read-more.js"></script>
