@@ -1,22 +1,22 @@
 // Utils
-@import './utils/variables';
+@use './utils' as *;
 
 // Base
-@import './base/base';
-@import './base/reset';
+@use './base/base' as *;
+@use './base/reset' as *;
 
 // Components
-@import './components/container';
-@import './components/section-title';
+@use './components/container' as *;
+@use './components/section-title' as *;
 
 // Layout
-@import './layout/header';
-@import './layout/hero';
-@import './layout/about';
-@import './layout/advantages';
-@import './layout/services';
-@import './layout/gallery';
-@import './layout/blog';
-@import './layout/footer';
-@import './layout/scroll-up';
-@import './layout/mobile-menu';
+@use './layout/header' as *;
+@use './layout/hero' as *;
+@use './layout/about' as *;
+@use './layout/advantages' as *;
+@use './layout/services' as *;
+@use './layout/gallery' as *;
+@use './layout/blog' as *;
+@use './layout/footer' as *;
+@use './layout/scroll-up' as *;
+@use './layout/mobile-menu' as *;
