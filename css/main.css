@@ -27,11 +27,13 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  line-height: 1.4;
 }
 
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 body.header__open-menu {
@@ -1402,7 +1404,7 @@ ul {
 
 iframe {
   border-radius: 25px;
-  width: 314px;
+  max-width: 314px;
   height: 228px;
   margin-bottom: 36px;
 }
@@ -1436,7 +1438,7 @@ iframe {
           flex-direction: column;
   gap: 29px;
   margin-bottom: 24px;
-  width: 320px;
+  max-width: 320px;
 }
 
 .address__link {
@@ -1516,7 +1518,7 @@ iframe {
 #scrollToTop {
   position: sticky;
   bottom: 40px;
-  left: 90%;
+  left: 80%;
   width: 50px;
   height: 50px;
   display: none;
