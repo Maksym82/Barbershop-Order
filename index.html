@@ -716,16 +716,39 @@
           </div>
         </div>
         <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.542735492165!2d30.591617475781884!3d50.44961738742472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfedde9f9717%3A0xcc4fe80c5333179c!2zNEEsINGD0LsuINCg0LDQuNGB0Ysg0J7QutC40L_QvdC-0LksIDTQkCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1729103932665!5m2!1sru!2sua"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Карта расположения офиса"
-          >
-          </iframe>
+          <picture>
+            <!-- Tablet min-width 834px and max-width 1439px -->
+             <source
+              src=""
+             >
+            <!-- Mobile max-width: 833px -->
+            <source
+              srcset="
+                ./images/footer/mobile/map-mobile.avif    1x,
+                ./images/footer/mobile/map-mobile@2x.avif 2x
+              "
+              type="image/avif"
+              media="(max-width: 833px)"
+            />
+            <source
+              srcset="
+                ./images/footer/mobile/map-mobile.webp    1x,
+                ./images/footer/mobile/map-mobile@2x.webp 2x
+              "
+              type="image/webp"
+              media="(max-width: 833px)"
+            />
+            <!-- Fallback PNG для мобильного -->
+            <img
+              class="footer__map"
+              src="./images/footer/mobile/map-mobile.jpg"
+              srcset="
+                ./images/footer/mobile/map-mobile.jpg    1x,
+                ./images/footer/mobile/map-mobile@2x.jpg 2x
+              "
+              alt="Мапа з місцезнаходженням барбершопа"
+            />
+          </picture>
           <address>
             <ul class="address__list">
               <li class="address__item">

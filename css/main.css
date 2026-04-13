@@ -1492,9 +1492,12 @@ iframe {
   font-style: normal;
 }
 
+.address__link:hover {
+  text-decoration: underline;
+}
+
 .address__link-footer {
   width: 260px;
-  text-decoration: underline;
 }
 
 .address__icon {
