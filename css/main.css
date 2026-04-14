@@ -822,6 +822,7 @@ ul {
   border-radius: 50%;
   border: none;
   background-color: rgba(205, 174, 93, 0.31);
+  color: #1e1e1e;
   cursor: pointer;
   -webkit-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
@@ -833,8 +834,8 @@ ul {
 }
 
 .icon-arrow {
-  width: 20px;
-  height: 20px;
+  width: 25px !important;
+  height: 25px !important;
 }
 
 .swiper-button-prev::after {
@@ -1386,6 +1387,10 @@ ul {
   }
 }
 
+.footer__title-logo {
+  margin-bottom: 28px;
+}
+
 @media screen and (min-width: 834px) {
   .footer__title-logo {
     display: -webkit-box;
@@ -1428,7 +1433,6 @@ ul {
 }
 
 .logo__box-footer {
-  margin-bottom: 28px;
   width: 200px;
 }
 @media screen and (min-width: 834px) {
@@ -1437,25 +1441,24 @@ ul {
   }
 }
 
-iframe {
-  border-radius: 25px;
-  max-width: 314px;
-  height: 228px;
+.footer__map {
   margin-bottom: 36px;
+  border-radius: 25px;
 }
+
 @media screen and (min-width: 834px) {
-  iframe {
+  .footer__map {
+    position: absolute;
+    right: 39px;
+    bottom: -25px;
     width: 378px;
     height: 272px;
     border-radius: 0;
     margin-bottom: 0;
-    position: absolute;
-    right: 39px;
-    bottom: -50px;
   }
 }
 @media screen and (min-width: 1440px) {
-  iframe {
+  .footer__map {
     width: 525px;
     height: 394px;
     bottom: -55px;

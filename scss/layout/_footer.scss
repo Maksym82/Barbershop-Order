@@ -32,6 +32,10 @@
   }
 }
 
+.footer__title-logo {
+  margin-bottom: 28px;
+}
+
 @media screen and (min-width: 834px) {
   .footer__title-logo {
     display: flex;
@@ -69,7 +73,6 @@
 }
 
 .logo__box-footer {
-  margin-bottom: 28px;
   width: 200px;
 
   @media screen and (min-width: 834px) {
@@ -77,20 +80,22 @@
   }
 }
 
-iframe {
-  border-radius: 25px;
-  max-width: 314px;
-  height: 228px;
+.footer__map {
   margin-bottom: 36px;
+  border-radius: 25px;
+}
 
+.footer__map {
+  
+  
   @media screen and (min-width: 834px) {
+    position: absolute;
+    right: 39px;
+    bottom: -25px;
     width: 378px;
     height: 272px;
     border-radius: 0;
     margin-bottom: 0;
-    position: absolute;
-    right: 39px;
-    bottom: -50px;
   }
 
   @media screen and (min-width: 1440px) {
