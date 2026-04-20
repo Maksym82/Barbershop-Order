@@ -5,8 +5,12 @@
   top: 0;
   right: 0;
   left: 0;
-  max-width: 375px;
+  max-width: 320px;
   margin: 0 auto;
+
+  @media (min-width: 375px) {
+    max-width: 375px;
+  }
   
   @media screen and (min-width: 834px) {
     max-width: 834px;
@@ -120,6 +124,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  z-index: 2;
 
   @media screen and (min-width: 834px) {
     display: none;

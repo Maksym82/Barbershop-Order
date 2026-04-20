@@ -1,12 +1,16 @@
 @use '../utils/variables' as *;
 
 .footer {
-  max-width: 375px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 36px 0 41px;
   background-color: $sections;
   border: 1px solid $h2-section;
   border-top: none;
+
+  @media (min-width: 375px) {
+    max-width: 375px;
+  }
 
   @media screen and (min-width: 834px) {
     max-width: 834px;
@@ -86,8 +90,6 @@
 }
 
 .footer__map {
-  
-  
   @media screen and (min-width: 834px) {
     position: absolute;
     right: 39px;

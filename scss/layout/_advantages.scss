@@ -1,12 +1,16 @@
 @use '../utils/variables' as *;
 
 .advantages {
-  max-width: 375px;
+  max-width: 320px;
   padding: 36px 0 66px;
   margin: 0 auto;
   border: 1px solid $h2-section;
   border-top: none;
   background-color: $sections;
+
+  @media (min-width: 375px) {
+    max-width: 375px;
+  }
 
   @media screen and (min-width: 834px) {
     max-width: 834px;
@@ -96,8 +100,8 @@
 }
 
 .icon-arrow {
-  width: 25px!important; 
-  height: 25px!important;
+  width: 25px !important;
+  height: 25px !important;
 }
 
 .swiper-button-prev::after {

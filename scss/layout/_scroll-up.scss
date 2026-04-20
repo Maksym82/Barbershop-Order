@@ -1,19 +1,23 @@
 @use '../utils/variables' as *;
 
 #scrollToTop {
-    position: sticky;
-    bottom: 40px;
+  position: sticky;
+  bottom: 40px;
+  left: 75%;
+  width: 50px;
+  height: 50px;
+  display: none;
+  cursor: pointer;
+  z-index: 5;
+  opacity: 0.4;
+
+  @media (min-width: 375px) {
     left: 80%;
-    width: 50px;
-    height: 50px;
-    display: none;
-    cursor: pointer;
-    z-index: 5;
-    opacity: 0.4;
+  }
 }
 
 .scroll-up {
-    fill: $h2-section;
-    border-radius: 50%;
-    border: 5px solid white;
+  fill: $h2-section;
+  border-radius: 50%;
+  border: 5px solid white;
 }

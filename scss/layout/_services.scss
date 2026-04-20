@@ -1,12 +1,16 @@
 @use '../utils/variables' as *;
 
 .services {
-  max-width: 375px;
+  max-width: 320px;
   padding: 36px 0 34px;
   margin: 0 auto;
   border: 1px solid $h2-section;
   border-top: none;
   background-color: $sections;
+
+  @media (min-width: 375px) {
+    max-width: 375px;
+  }
 
   @media screen and (min-width: 834px) {
     max-width: 834px;
@@ -63,7 +67,7 @@
 }
 
 // .tab button:nth-child(1):focus {
-  
+
 // }
 
 // .tab button:nth-child(2):focus {
@@ -195,12 +199,12 @@
 
 .barbers .swiper-slide {
   width: 185px;
-  
+
   border: none;
 
   @media screen and (min-width: 1440px) {
-   width: 198px;
-   padding: 0;
+    width: 198px;
+    padding: 0;
   }
 }
 
@@ -278,7 +282,9 @@
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
-  transition: background-color 300ms linear, color 300ms linear;
+  transition:
+    background-color 300ms linear,
+    color 300ms linear;
 
   @media screen and (min-width: 834px) {
     margin: 0;
@@ -304,7 +310,9 @@
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
-  transition: background-color 300ms linear, color 300ms linear;
+  transition:
+    background-color 300ms linear,
+    color 300ms linear;
 
   @media screen and (min-width: 834px) {
     margin: 0;
