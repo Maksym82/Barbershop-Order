@@ -162,6 +162,7 @@ ul {
   left: 0;
   max-width: 320px;
   margin: 0 auto;
+  z-index: 2;
 }
 @media (min-width: 375px) {
   .header {
@@ -213,7 +214,6 @@ ul {
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
-  z-index: 13;
 }
 
 .logo__text {

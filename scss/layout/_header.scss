@@ -7,6 +7,7 @@
   left: 0;
   max-width: 320px;
   margin: 0 auto;
+  z-index: 2;
 
   @media (min-width: 375px) {
     max-width: 375px;
@@ -41,7 +42,6 @@
 .logo__box {
   display: flex;
   gap: 20px;
-  z-index: 13;
 }
 
 .logo__text {
