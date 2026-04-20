@@ -308,21 +308,14 @@ ul {
 }
 
 .hero__container {
+  position: relative;
+  z-index: 0;
   max-width: 375px;
   min-height: 507px;
   margin: 0 auto;
   padding: 220px 0 43px 18px;
   background-color: #585a59;
   border: 1px solid #cdae5d;
-  background-image: url("../images/hero/hero-mobile@1x.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero__container {
-    background-image: url("../images/hero/hero-mobile@2x.webp");
-  }
 }
 @media screen and (min-width: 834px) {
   .hero__container {
@@ -350,6 +343,13 @@ ul {
   .hero__container {
     background-image: url("../images/hero/hero-desktop@2x.webp");
   }
+}
+
+.hero__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 .hero__title {
@@ -395,8 +395,11 @@ ul {
   }
 }
 
+.hero__button-box {
+  position: relative;
+}
 @media screen and (min-width: 1440px) {
-  .hero__button-box {
+  .hero__button-box .hero__button-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -404,6 +407,7 @@ ul {
     gap: 36px;
   }
 }
+
 .hero__button-first {
   display: -webkit-box;
   display: -ms-flexbox;
