@@ -347,9 +347,9 @@ ul {
     max-width: 1440px;
     min-height: 670px;
     padding: 190px 0 190px 150px;
-    background-position: right;
   }
 }
+
 .hero__image {
   position: absolute;
   top: 0;
