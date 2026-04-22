@@ -150,8 +150,7 @@
               sizes="(max-width: 833px) 374px, 748px"
               alt="Чоловік з вусами та бородою"
               fetchpriority="high"
-              width="374"
-              height="507"
+              
             />
           </picture>
           <h1 class="hero__title">Order</h1>
@@ -364,22 +363,23 @@
       <section class="services" id="services">
         <div class="container">
           <h2 class="section__title">Послуги та ціни</h2>
+          <div class="services__big-box">
           <div class="services__main-block">
             <div class="tab">
               <button
                 class="tablinks active"
-                onclick="openCity(event, 'London')"
+                onclick="openCity(event, 'firstBarber')"
               >
                 Молодший барбер
               </button>
-              <button class="tablinks" onclick="openCity(event, 'Paris')">
+              <button class="tablinks" onclick="openCity(event, 'secondBarber')">
                 Барбер
               </button>
-              <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+              <button class="tablinks" onclick="openCity(event, 'thirdBarber')">
                 Топ Барбер
               </button>
             </div>
-            <div id="London" class="tabcontent first-active">
+            <div id="firstBarber" class="tabcontent first-active">
               <div class="barber__box">
                 <p class="barber__services">Чоловіча стрижка</p>
                 <span class="barber__price">350 грн</span>
@@ -406,7 +406,7 @@
               </div>
             </div>
 
-            <div id="Paris" class="tabcontent">
+            <div id="secondBarber" class="tabcontent">
               <div class="barber__box">
                 <p class="barber__services">Чоловіча стрижка</p>
                 <span class="barber__price">400 грн</span>
@@ -433,7 +433,7 @@
               </div>
             </div>
 
-            <div id="Tokyo" class="tabcontent">
+            <div id="thirdBarber" class="tabcontent">
               <div class="barber__box">
                 <p class="barber__services">Чоловіча стрижка</p>
                 <span class="barber__price">450 грн</span>
@@ -466,7 +466,7 @@
                 <div class="swiper my-swiper-barber">
                   <div class="swiper-wrapper">
                     <!--Barber #1-->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide services__swiper-slide">
                       <img
                         class="barbers__images"
                         srcset="
@@ -483,7 +483,7 @@
                       </div>
                     </div>
                     <!--Barber #2-->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide services__swiper-slide">
                       <img
                         class="barbers__images"
                         srcset="
@@ -500,7 +500,7 @@
                       </div>
                     </div>
                     <!--Barber #3-->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide services__swiper-slide">
                       <img
                         class="barbers__images"
                         srcset="
@@ -512,7 +512,7 @@
                         src="./images/services/barber-yaroslav.jpg"
                       />
                       <div class="barbers__box">
-                        <p class="barbers__name">Ярослав</p>
+                        <p class="barbers__name">Ярік</p>
                         <p class="barbers__position">Top Barber</p>
                       </div>
                     </div>
@@ -540,6 +540,7 @@
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>
